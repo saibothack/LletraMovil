@@ -1,4 +1,5 @@
 ﻿using System;
+using LletraMovil.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace LletraMovil
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new IntroPage();
         }
 
         protected override void OnStart()

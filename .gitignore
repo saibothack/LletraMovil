@@ -347,3 +347,5 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+LletraMovil.Android/Resources/.DS_Store
+LletraMovil.Android/Resources/drawable/.DS_Store

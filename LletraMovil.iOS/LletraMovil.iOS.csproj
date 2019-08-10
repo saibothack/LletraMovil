@@ -130,4 +130,10 @@
       <Name>LletraMovil</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\lletra_logo_sin_descripcion_blanco.png" />
+    <BundleResource Include="Resources\icon_operador.png" />
+    <BundleResource Include="Resources\icon_cliente.png" />
+    <BundleResource Include="Resources\background.png" />
+  </ItemGroup>
 </Project>
