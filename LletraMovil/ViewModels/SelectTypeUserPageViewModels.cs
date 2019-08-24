@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Xamarin.Essentials;
 using LletraMovil.Views;
 using Xamarin.Forms;
 
@@ -20,10 +20,12 @@ namespace LletraMovil.ViewModels
         }
 
         void SoyUsuario() {
+            Preferences.Set("TypeUser", 1);
             Application.Current.MainPage = new NavigationPage(new LoginPage());
         }
 
         void SoyOperador() {
+            Preferences.Set("TypeUser", 2);
             Application.Current.MainPage = new NavigationPage(new LoginPage());
         }
     }
