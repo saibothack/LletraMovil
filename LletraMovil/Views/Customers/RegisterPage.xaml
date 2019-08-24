@@ -66,14 +66,15 @@
                         </StackLayout>
                     </StackLayout>
                     <StackLayout HorizontalOptions="FillAndExpand">
-                        <Button Text="Registrarme" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" WidthRequest="200" Margin="20" BackgroundColor="Blue" TextColor="White"/>
+                        <Button Text="Registrarme" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" WidthRequest="200" Margin="20" BackgroundColor="Blue" 
+                                TextColor="White" Command="{Binding CmdRegistrar}"/>
                     </StackLayout>
                     
                     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="White"/>
                     
                     <StackLayout HorizontalOptions="FillAndExpand" Margin="20">
                         <Label Text="¿Ya tienes una cuenta?" FontSize="Subtitle" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="White" />
-                        <Button Text="Inicia sesión" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" WidthRequest="200" Command="{Binding CmdRegistrar}"/>
+                        <Button Text="Inicia sesión" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" WidthRequest="200" Command="{Binding CmdRegresar}"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>
