@@ -1,12 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:abstractions="clr-namespace:LeoJHarris.FormsPlugin.Abstractions;assembly=LeoJHarris.FormsPlugin.Abstractions"
              x:Class="LletraMovil.Views.LoginPage">
     <ContentPage.Content>
         <ScrollView>
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="{Binding RowHeaderHeight}" />
+                 
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="100" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
@@ -14,28 +18,62 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <Image Source="background.png"
-                       Grid.Column="0"
-                       Grid.Row="0"
-                       Grid.RowSpan="2"
-                       HorizontalOptions="FillAndExpand"
-                       Aspect="AspectFill" />
+                <Image Source="background.png" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
 
-                <StackLayout Grid.Column="0"
-                             Grid.Row="0"
-                             Margin="20">
-                    <Grid>
+                <StackLayout Grid.Row="0" Grid.Column="0" Margin="20,0,0,0">
+                    <StackLayout WidthRequest="50" HorizontalOptions="Start">
+                        <ImageButton Source="left_arrow.png" BackgroundColor="Transparent" Margin="10"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                    </StackLayout>
+                    <StackLayout WidthRequest="50" HorizontalOptions="End">
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Grid.Column="0">
+                    <Image Source="lletra_logitpo.png" Margin="10"/>
+                </StackLayout>
+                <StackLayout Grid.Row="2" Grid.Column="0">
+                    <Label Text="¿No tienes una cuenta?" FontSize="Subtitle" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="White" />
+                    <Button Text="Registrate" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" WidthRequest="200"/>
+                </StackLayout>
+                <StackLayout Grid.Row="3" Grid.Column="0">
+                    <Grid HorizontalOptions="FillAndExpand" >
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
+                            <RowDefinition Height="20" />
+                            <RowDefinition Height="20" />
                         </Grid.RowDefinitions>
-                    </Grid>
-                </StackLayout>
+                        
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
 
+                        <StackLayout Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" VerticalOptions="FillAndExpand">
+                            <Frame BackgroundColor="White" Margin="20"  CornerRadius="25" VerticalOptions="FillAndExpand">
+                                <StackLayout Orientation="Vertical" Margin="0,0,0,20">
+                                    <StackLayout>
+                                        <abstractions:EnhancedEntry LeftIcon="user" Placeholder="Correo o Usuario" FontSize="Title"/>
+                                    </StackLayout>
+                                    <StackLayout>
+                                        <abstractions:EnhancedEntry LeftIcon="password" Placeholder="Contraseña" FontSize="Title"/>
+                                    </StackLayout>
+
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                            <Button Text="Iniciar sesión" BackgroundColor="Blue" CornerRadius="25" WidthRequest="200" VerticalOptions="Center" 
+                                    HorizontalOptions="Center" TextColor="White"/>
+                        </StackLayout>
+                    </Grid>
+                    <StackLayout Grid.Row="2" Grid.Column="0">
+                        <Button Text="¿Olvidaste tus datos?" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"  BackgroundColor="Transparent" Margin="15" TextColor="White" FontSize="Subtitle"/>
+                    </StackLayout>
+                </StackLayout>
                 
 
-                <StackLayout>
 
-                </StackLayout>
             </Grid>
         </ScrollView>
     </ContentPage.Content>

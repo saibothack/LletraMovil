@@ -26,6 +26,2243 @@ namespace LletraMovil.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_fade_in = global::LletraMovil.Droid.Resource.Animation.abc_fade_in;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_fade_out = global::LletraMovil.Droid.Resource.Animation.abc_fade_out;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::LletraMovil.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_popup_enter = global::LletraMovil.Droid.Resource.Animation.abc_popup_enter;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_popup_exit = global::LletraMovil.Droid.Resource.Animation.abc_popup_exit;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LletraMovil.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_slide_in_bottom = global::LletraMovil.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_slide_in_top = global::LletraMovil.Droid.Resource.Animation.abc_slide_in_top;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_slide_out_bottom = global::LletraMovil.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.abc_slide_out_top = global::LletraMovil.Droid.Resource.Animation.abc_slide_out_top;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::LletraMovil.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::LletraMovil.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.design_snackbar_in = global::LletraMovil.Droid.Resource.Animation.design_snackbar_in;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animation.design_snackbar_out = global::LletraMovil.Droid.Resource.Animation.design_snackbar_out;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Animator.design_appbar_state_list_animator = global::LletraMovil.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarDivider = global::LletraMovil.Droid.Resource.Attribute.actionBarDivider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarItemBackground = global::LletraMovil.Droid.Resource.Attribute.actionBarItemBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarPopupTheme = global::LletraMovil.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarSize = global::LletraMovil.Droid.Resource.Attribute.actionBarSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarSplitStyle = global::LletraMovil.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarStyle = global::LletraMovil.Droid.Resource.Attribute.actionBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarTabBarStyle = global::LletraMovil.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarTabStyle = global::LletraMovil.Droid.Resource.Attribute.actionBarTabStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarTabTextStyle = global::LletraMovil.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarTheme = global::LletraMovil.Droid.Resource.Attribute.actionBarTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionBarWidgetTheme = global::LletraMovil.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionButtonStyle = global::LletraMovil.Droid.Resource.Attribute.actionButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionDropDownStyle = global::LletraMovil.Droid.Resource.Attribute.actionDropDownStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionLayout = global::LletraMovil.Droid.Resource.Attribute.actionLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionMenuTextAppearance = global::LletraMovil.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionMenuTextColor = global::LletraMovil.Droid.Resource.Attribute.actionMenuTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeBackground = global::LletraMovil.Droid.Resource.Attribute.actionModeBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::LletraMovil.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeCloseDrawable = global::LletraMovil.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeCopyDrawable = global::LletraMovil.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeCutDrawable = global::LletraMovil.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeFindDrawable = global::LletraMovil.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModePasteDrawable = global::LletraMovil.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModePopupWindowStyle = global::LletraMovil.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::LletraMovil.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeShareDrawable = global::LletraMovil.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeSplitBackground = global::LletraMovil.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeStyle = global::LletraMovil.Droid.Resource.Attribute.actionModeStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::LletraMovil.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionOverflowButtonStyle = global::LletraMovil.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionOverflowMenuStyle = global::LletraMovil.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionProviderClass = global::LletraMovil.Droid.Resource.Attribute.actionProviderClass;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.actionViewClass = global::LletraMovil.Droid.Resource.Attribute.actionViewClass;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.activityChooserViewStyle = global::LletraMovil.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::LletraMovil.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.alertDialogCenterButtons = global::LletraMovil.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.alertDialogStyle = global::LletraMovil.Droid.Resource.Attribute.alertDialogStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.alertDialogTheme = global::LletraMovil.Droid.Resource.Attribute.alertDialogTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.allowStacking = global::LletraMovil.Droid.Resource.Attribute.allowStacking;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.alpha = global::LletraMovil.Droid.Resource.Attribute.alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.alphabeticModifiers = global::LletraMovil.Droid.Resource.Attribute.alphabeticModifiers;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.arrowHeadLength = global::LletraMovil.Droid.Resource.Attribute.arrowHeadLength;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.arrowShaftLength = global::LletraMovil.Droid.Resource.Attribute.arrowShaftLength;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::LletraMovil.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.autoSizeMaxTextSize = global::LletraMovil.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.autoSizeMinTextSize = global::LletraMovil.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.autoSizePresetSizes = global::LletraMovil.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.autoSizeStepGranularity = global::LletraMovil.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.autoSizeTextType = global::LletraMovil.Droid.Resource.Attribute.autoSizeTextType;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.background = global::LletraMovil.Droid.Resource.Attribute.background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.backgroundSplit = global::LletraMovil.Droid.Resource.Attribute.backgroundSplit;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.backgroundStacked = global::LletraMovil.Droid.Resource.Attribute.backgroundStacked;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.backgroundTint = global::LletraMovil.Droid.Resource.Attribute.backgroundTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.backgroundTintMode = global::LletraMovil.Droid.Resource.Attribute.backgroundTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.barLength = global::LletraMovil.Droid.Resource.Attribute.barLength;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.behavior_autoHide = global::LletraMovil.Droid.Resource.Attribute.behavior_autoHide;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.behavior_hideable = global::LletraMovil.Droid.Resource.Attribute.behavior_hideable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.behavior_overlapTop = global::LletraMovil.Droid.Resource.Attribute.behavior_overlapTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.behavior_peekHeight = global::LletraMovil.Droid.Resource.Attribute.behavior_peekHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.behavior_skipCollapsed = global::LletraMovil.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.borderWidth = global::LletraMovil.Droid.Resource.Attribute.borderWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.borderlessButtonStyle = global::LletraMovil.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.bottomSheetDialogTheme = global::LletraMovil.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.bottomSheetStyle = global::LletraMovil.Droid.Resource.Attribute.bottomSheetStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonBarButtonStyle = global::LletraMovil.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::LletraMovil.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::LletraMovil.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::LletraMovil.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonBarStyle = global::LletraMovil.Droid.Resource.Attribute.buttonBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonGravity = global::LletraMovil.Droid.Resource.Attribute.buttonGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonPanelSideLayout = global::LletraMovil.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonStyle = global::LletraMovil.Droid.Resource.Attribute.buttonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonStyleSmall = global::LletraMovil.Droid.Resource.Attribute.buttonStyleSmall;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonTint = global::LletraMovil.Droid.Resource.Attribute.buttonTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.buttonTintMode = global::LletraMovil.Droid.Resource.Attribute.buttonTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.cardBackgroundColor = global::LletraMovil.Droid.Resource.Attribute.cardBackgroundColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.cardCornerRadius = global::LletraMovil.Droid.Resource.Attribute.cardCornerRadius;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.cardElevation = global::LletraMovil.Droid.Resource.Attribute.cardElevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.cardMaxElevation = global::LletraMovil.Droid.Resource.Attribute.cardMaxElevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.cardPreventCornerOverlap = global::LletraMovil.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.cardUseCompatPadding = global::LletraMovil.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.checkboxStyle = global::LletraMovil.Droid.Resource.Attribute.checkboxStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.checkedTextViewStyle = global::LletraMovil.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.closeIcon = global::LletraMovil.Droid.Resource.Attribute.closeIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.closeItemLayout = global::LletraMovil.Droid.Resource.Attribute.closeItemLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.collapseContentDescription = global::LletraMovil.Droid.Resource.Attribute.collapseContentDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.collapseIcon = global::LletraMovil.Droid.Resource.Attribute.collapseIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.collapsedTitleGravity = global::LletraMovil.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::LletraMovil.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.color = global::LletraMovil.Droid.Resource.Attribute.color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorAccent = global::LletraMovil.Droid.Resource.Attribute.colorAccent;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorBackgroundFloating = global::LletraMovil.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorButtonNormal = global::LletraMovil.Droid.Resource.Attribute.colorButtonNormal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorControlActivated = global::LletraMovil.Droid.Resource.Attribute.colorControlActivated;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorControlHighlight = global::LletraMovil.Droid.Resource.Attribute.colorControlHighlight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorControlNormal = global::LletraMovil.Droid.Resource.Attribute.colorControlNormal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorError = global::LletraMovil.Droid.Resource.Attribute.colorError;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorPrimary = global::LletraMovil.Droid.Resource.Attribute.colorPrimary;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorPrimaryDark = global::LletraMovil.Droid.Resource.Attribute.colorPrimaryDark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.colorSwitchThumbNormal = global::LletraMovil.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.commitIcon = global::LletraMovil.Droid.Resource.Attribute.commitIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentDescription = global::LletraMovil.Droid.Resource.Attribute.contentDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentInsetEnd = global::LletraMovil.Droid.Resource.Attribute.contentInsetEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentInsetEndWithActions = global::LletraMovil.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentInsetLeft = global::LletraMovil.Droid.Resource.Attribute.contentInsetLeft;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentInsetRight = global::LletraMovil.Droid.Resource.Attribute.contentInsetRight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentInsetStart = global::LletraMovil.Droid.Resource.Attribute.contentInsetStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::LletraMovil.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentPadding = global::LletraMovil.Droid.Resource.Attribute.contentPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentPaddingBottom = global::LletraMovil.Droid.Resource.Attribute.contentPaddingBottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentPaddingLeft = global::LletraMovil.Droid.Resource.Attribute.contentPaddingLeft;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentPaddingRight = global::LletraMovil.Droid.Resource.Attribute.contentPaddingRight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentPaddingTop = global::LletraMovil.Droid.Resource.Attribute.contentPaddingTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.contentScrim = global::LletraMovil.Droid.Resource.Attribute.contentScrim;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.controlBackground = global::LletraMovil.Droid.Resource.Attribute.controlBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.counterEnabled = global::LletraMovil.Droid.Resource.Attribute.counterEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.counterMaxLength = global::LletraMovil.Droid.Resource.Attribute.counterMaxLength;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.counterOverflowTextAppearance = global::LletraMovil.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.counterTextAppearance = global::LletraMovil.Droid.Resource.Attribute.counterTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.customNavigationLayout = global::LletraMovil.Droid.Resource.Attribute.customNavigationLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.defaultQueryHint = global::LletraMovil.Droid.Resource.Attribute.defaultQueryHint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.dialogPreferredPadding = global::LletraMovil.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.dialogTheme = global::LletraMovil.Droid.Resource.Attribute.dialogTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.displayOptions = global::LletraMovil.Droid.Resource.Attribute.displayOptions;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.divider = global::LletraMovil.Droid.Resource.Attribute.divider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.dividerHorizontal = global::LletraMovil.Droid.Resource.Attribute.dividerHorizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.dividerPadding = global::LletraMovil.Droid.Resource.Attribute.dividerPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.dividerVertical = global::LletraMovil.Droid.Resource.Attribute.dividerVertical;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.drawableSize = global::LletraMovil.Droid.Resource.Attribute.drawableSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.drawerArrowStyle = global::LletraMovil.Droid.Resource.Attribute.drawerArrowStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.dropDownListViewStyle = global::LletraMovil.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::LletraMovil.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.editTextBackground = global::LletraMovil.Droid.Resource.Attribute.editTextBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.editTextColor = global::LletraMovil.Droid.Resource.Attribute.editTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.editTextStyle = global::LletraMovil.Droid.Resource.Attribute.editTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.elevation = global::LletraMovil.Droid.Resource.Attribute.elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.errorEnabled = global::LletraMovil.Droid.Resource.Attribute.errorEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.errorTextAppearance = global::LletraMovil.Droid.Resource.Attribute.errorTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LletraMovil.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.expanded = global::LletraMovil.Droid.Resource.Attribute.expanded;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.expandedTitleGravity = global::LletraMovil.Droid.Resource.Attribute.expandedTitleGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.expandedTitleMargin = global::LletraMovil.Droid.Resource.Attribute.expandedTitleMargin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.expandedTitleMarginBottom = global::LletraMovil.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.expandedTitleMarginEnd = global::LletraMovil.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.expandedTitleMarginStart = global::LletraMovil.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.expandedTitleMarginTop = global::LletraMovil.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.expandedTitleTextAppearance = global::LletraMovil.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::LletraMovil.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fabSize = global::LletraMovil.Droid.Resource.Attribute.fabSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fastScrollEnabled = global::LletraMovil.Droid.Resource.Attribute.fastScrollEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::LletraMovil.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::LletraMovil.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::LletraMovil.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::LletraMovil.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.font = global::LletraMovil.Droid.Resource.Attribute.font;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fontFamily = global::LletraMovil.Droid.Resource.Attribute.fontFamily;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fontProviderAuthority = global::LletraMovil.Droid.Resource.Attribute.fontProviderAuthority;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fontProviderCerts = global::LletraMovil.Droid.Resource.Attribute.fontProviderCerts;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fontProviderFetchStrategy = global::LletraMovil.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fontProviderFetchTimeout = global::LletraMovil.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fontProviderPackage = global::LletraMovil.Droid.Resource.Attribute.fontProviderPackage;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fontProviderQuery = global::LletraMovil.Droid.Resource.Attribute.fontProviderQuery;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fontStyle = global::LletraMovil.Droid.Resource.Attribute.fontStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.fontWeight = global::LletraMovil.Droid.Resource.Attribute.fontWeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.foregroundInsidePadding = global::LletraMovil.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.gapBetweenBars = global::LletraMovil.Droid.Resource.Attribute.gapBetweenBars;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.goIcon = global::LletraMovil.Droid.Resource.Attribute.goIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.headerLayout = global::LletraMovil.Droid.Resource.Attribute.headerLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.height = global::LletraMovil.Droid.Resource.Attribute.height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.hideOnContentScroll = global::LletraMovil.Droid.Resource.Attribute.hideOnContentScroll;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.hintAnimationEnabled = global::LletraMovil.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.hintEnabled = global::LletraMovil.Droid.Resource.Attribute.hintEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.hintTextAppearance = global::LletraMovil.Droid.Resource.Attribute.hintTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.homeAsUpIndicator = global::LletraMovil.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.homeLayout = global::LletraMovil.Droid.Resource.Attribute.homeLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.icon = global::LletraMovil.Droid.Resource.Attribute.icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.iconTint = global::LletraMovil.Droid.Resource.Attribute.iconTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.iconTintMode = global::LletraMovil.Droid.Resource.Attribute.iconTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.iconifiedByDefault = global::LletraMovil.Droid.Resource.Attribute.iconifiedByDefault;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.imageButtonStyle = global::LletraMovil.Droid.Resource.Attribute.imageButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.indeterminateProgressStyle = global::LletraMovil.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.initialActivityCount = global::LletraMovil.Droid.Resource.Attribute.initialActivityCount;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.insetForeground = global::LletraMovil.Droid.Resource.Attribute.insetForeground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.isLightTheme = global::LletraMovil.Droid.Resource.Attribute.isLightTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.itemBackground = global::LletraMovil.Droid.Resource.Attribute.itemBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.itemIconTint = global::LletraMovil.Droid.Resource.Attribute.itemIconTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.itemPadding = global::LletraMovil.Droid.Resource.Attribute.itemPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.itemTextAppearance = global::LletraMovil.Droid.Resource.Attribute.itemTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.itemTextColor = global::LletraMovil.Droid.Resource.Attribute.itemTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.keylines = global::LletraMovil.Droid.Resource.Attribute.keylines;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout = global::LletraMovil.Droid.Resource.Attribute.layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layoutManager = global::LletraMovil.Droid.Resource.Attribute.layoutManager;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_anchor = global::LletraMovil.Droid.Resource.Attribute.layout_anchor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_anchorGravity = global::LletraMovil.Droid.Resource.Attribute.layout_anchorGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_behavior = global::LletraMovil.Droid.Resource.Attribute.layout_behavior;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_collapseMode = global::LletraMovil.Droid.Resource.Attribute.layout_collapseMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::LletraMovil.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::LletraMovil.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_insetEdge = global::LletraMovil.Droid.Resource.Attribute.layout_insetEdge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_keyline = global::LletraMovil.Droid.Resource.Attribute.layout_keyline;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_scrollFlags = global::LletraMovil.Droid.Resource.Attribute.layout_scrollFlags;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.layout_scrollInterpolator = global::LletraMovil.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::LletraMovil.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listDividerAlertDialog = global::LletraMovil.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listItemLayout = global::LletraMovil.Droid.Resource.Attribute.listItemLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listLayout = global::LletraMovil.Droid.Resource.Attribute.listLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listMenuViewStyle = global::LletraMovil.Droid.Resource.Attribute.listMenuViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listPopupWindowStyle = global::LletraMovil.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listPreferredItemHeight = global::LletraMovil.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::LletraMovil.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::LletraMovil.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::LletraMovil.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::LletraMovil.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.logo = global::LletraMovil.Droid.Resource.Attribute.logo;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.logoDescription = global::LletraMovil.Droid.Resource.Attribute.logoDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.maxActionInlineWidth = global::LletraMovil.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.maxButtonHeight = global::LletraMovil.Droid.Resource.Attribute.maxButtonHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.measureWithLargestChild = global::LletraMovil.Droid.Resource.Attribute.measureWithLargestChild;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::LletraMovil.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteButtonStyle = global::LletraMovil.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteButtonTint = global::LletraMovil.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::LletraMovil.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::LletraMovil.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::LletraMovil.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::LletraMovil.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::LletraMovil.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::LletraMovil.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::LletraMovil.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteStopDrawable = global::LletraMovil.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteTheme = global::LletraMovil.Droid.Resource.Attribute.mediaRouteTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::LletraMovil.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.menu = global::LletraMovil.Droid.Resource.Attribute.menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.multiChoiceItemLayout = global::LletraMovil.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.navigationContentDescription = global::LletraMovil.Droid.Resource.Attribute.navigationContentDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.navigationIcon = global::LletraMovil.Droid.Resource.Attribute.navigationIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.navigationMode = global::LletraMovil.Droid.Resource.Attribute.navigationMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.numericModifiers = global::LletraMovil.Droid.Resource.Attribute.numericModifiers;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.overlapAnchor = global::LletraMovil.Droid.Resource.Attribute.overlapAnchor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.paddingBottomNoButtons = global::LletraMovil.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.paddingEnd = global::LletraMovil.Droid.Resource.Attribute.paddingEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.paddingStart = global::LletraMovil.Droid.Resource.Attribute.paddingStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.paddingTopNoTitle = global::LletraMovil.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.panelBackground = global::LletraMovil.Droid.Resource.Attribute.panelBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.panelMenuListTheme = global::LletraMovil.Droid.Resource.Attribute.panelMenuListTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.panelMenuListWidth = global::LletraMovil.Droid.Resource.Attribute.panelMenuListWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.passwordToggleContentDescription = global::LletraMovil.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.passwordToggleDrawable = global::LletraMovil.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.passwordToggleEnabled = global::LletraMovil.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.passwordToggleTint = global::LletraMovil.Droid.Resource.Attribute.passwordToggleTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.passwordToggleTintMode = global::LletraMovil.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.popupMenuStyle = global::LletraMovil.Droid.Resource.Attribute.popupMenuStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.popupTheme = global::LletraMovil.Droid.Resource.Attribute.popupTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.popupWindowStyle = global::LletraMovil.Droid.Resource.Attribute.popupWindowStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.preserveIconSpacing = global::LletraMovil.Droid.Resource.Attribute.preserveIconSpacing;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.pressedTranslationZ = global::LletraMovil.Droid.Resource.Attribute.pressedTranslationZ;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.progressBarPadding = global::LletraMovil.Droid.Resource.Attribute.progressBarPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.progressBarStyle = global::LletraMovil.Droid.Resource.Attribute.progressBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.queryBackground = global::LletraMovil.Droid.Resource.Attribute.queryBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.queryHint = global::LletraMovil.Droid.Resource.Attribute.queryHint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.radioButtonStyle = global::LletraMovil.Droid.Resource.Attribute.radioButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.ratingBarStyle = global::LletraMovil.Droid.Resource.Attribute.ratingBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.ratingBarStyleIndicator = global::LletraMovil.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.ratingBarStyleSmall = global::LletraMovil.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.reverseLayout = global::LletraMovil.Droid.Resource.Attribute.reverseLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.rippleColor = global::LletraMovil.Droid.Resource.Attribute.rippleColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.scrimAnimationDuration = global::LletraMovil.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::LletraMovil.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.searchHintIcon = global::LletraMovil.Droid.Resource.Attribute.searchHintIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.searchIcon = global::LletraMovil.Droid.Resource.Attribute.searchIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.searchViewStyle = global::LletraMovil.Droid.Resource.Attribute.searchViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.seekBarStyle = global::LletraMovil.Droid.Resource.Attribute.seekBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.selectableItemBackground = global::LletraMovil.Droid.Resource.Attribute.selectableItemBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::LletraMovil.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.showAsAction = global::LletraMovil.Droid.Resource.Attribute.showAsAction;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.showDividers = global::LletraMovil.Droid.Resource.Attribute.showDividers;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.showText = global::LletraMovil.Droid.Resource.Attribute.showText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.showTitle = global::LletraMovil.Droid.Resource.Attribute.showTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.singleChoiceItemLayout = global::LletraMovil.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.spanCount = global::LletraMovil.Droid.Resource.Attribute.spanCount;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.spinBars = global::LletraMovil.Droid.Resource.Attribute.spinBars;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::LletraMovil.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.spinnerStyle = global::LletraMovil.Droid.Resource.Attribute.spinnerStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.splitTrack = global::LletraMovil.Droid.Resource.Attribute.splitTrack;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.srcCompat = global::LletraMovil.Droid.Resource.Attribute.srcCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.stackFromEnd = global::LletraMovil.Droid.Resource.Attribute.stackFromEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.state_above_anchor = global::LletraMovil.Droid.Resource.Attribute.state_above_anchor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.state_collapsed = global::LletraMovil.Droid.Resource.Attribute.state_collapsed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.state_collapsible = global::LletraMovil.Droid.Resource.Attribute.state_collapsible;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.statusBarBackground = global::LletraMovil.Droid.Resource.Attribute.statusBarBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.statusBarScrim = global::LletraMovil.Droid.Resource.Attribute.statusBarScrim;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.subMenuArrow = global::LletraMovil.Droid.Resource.Attribute.subMenuArrow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.submitBackground = global::LletraMovil.Droid.Resource.Attribute.submitBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.subtitle = global::LletraMovil.Droid.Resource.Attribute.subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.subtitleTextAppearance = global::LletraMovil.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.subtitleTextColor = global::LletraMovil.Droid.Resource.Attribute.subtitleTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.subtitleTextStyle = global::LletraMovil.Droid.Resource.Attribute.subtitleTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.suggestionRowLayout = global::LletraMovil.Droid.Resource.Attribute.suggestionRowLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.switchMinWidth = global::LletraMovil.Droid.Resource.Attribute.switchMinWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.switchPadding = global::LletraMovil.Droid.Resource.Attribute.switchPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.switchStyle = global::LletraMovil.Droid.Resource.Attribute.switchStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.switchTextAppearance = global::LletraMovil.Droid.Resource.Attribute.switchTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabBackground = global::LletraMovil.Droid.Resource.Attribute.tabBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabContentStart = global::LletraMovil.Droid.Resource.Attribute.tabContentStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabGravity = global::LletraMovil.Droid.Resource.Attribute.tabGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabIndicatorColor = global::LletraMovil.Droid.Resource.Attribute.tabIndicatorColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabIndicatorHeight = global::LletraMovil.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabMaxWidth = global::LletraMovil.Droid.Resource.Attribute.tabMaxWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabMinWidth = global::LletraMovil.Droid.Resource.Attribute.tabMinWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabMode = global::LletraMovil.Droid.Resource.Attribute.tabMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabPadding = global::LletraMovil.Droid.Resource.Attribute.tabPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabPaddingBottom = global::LletraMovil.Droid.Resource.Attribute.tabPaddingBottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabPaddingEnd = global::LletraMovil.Droid.Resource.Attribute.tabPaddingEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabPaddingStart = global::LletraMovil.Droid.Resource.Attribute.tabPaddingStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabPaddingTop = global::LletraMovil.Droid.Resource.Attribute.tabPaddingTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabSelectedTextColor = global::LletraMovil.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabTextAppearance = global::LletraMovil.Droid.Resource.Attribute.tabTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tabTextColor = global::LletraMovil.Droid.Resource.Attribute.tabTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textAllCaps = global::LletraMovil.Droid.Resource.Attribute.textAllCaps;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::LletraMovil.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textAppearanceListItem = global::LletraMovil.Droid.Resource.Attribute.textAppearanceListItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::LletraMovil.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textAppearanceListItemSmall = global::LletraMovil.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::LletraMovil.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LletraMovil.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::LletraMovil.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::LletraMovil.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textColorAlertDialogListItem = global::LletraMovil.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.textColorSearchUrl = global::LletraMovil.Droid.Resource.Attribute.textColorSearchUrl;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.theme = global::LletraMovil.Droid.Resource.Attribute.theme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.thickness = global::LletraMovil.Droid.Resource.Attribute.thickness;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.thumbTextPadding = global::LletraMovil.Droid.Resource.Attribute.thumbTextPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.thumbTint = global::LletraMovil.Droid.Resource.Attribute.thumbTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.thumbTintMode = global::LletraMovil.Droid.Resource.Attribute.thumbTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tickMark = global::LletraMovil.Droid.Resource.Attribute.tickMark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tickMarkTint = global::LletraMovil.Droid.Resource.Attribute.tickMarkTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tickMarkTintMode = global::LletraMovil.Droid.Resource.Attribute.tickMarkTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tint = global::LletraMovil.Droid.Resource.Attribute.tint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tintMode = global::LletraMovil.Droid.Resource.Attribute.tintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.title = global::LletraMovil.Droid.Resource.Attribute.title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleEnabled = global::LletraMovil.Droid.Resource.Attribute.titleEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleMargin = global::LletraMovil.Droid.Resource.Attribute.titleMargin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleMarginBottom = global::LletraMovil.Droid.Resource.Attribute.titleMarginBottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleMarginEnd = global::LletraMovil.Droid.Resource.Attribute.titleMarginEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleMarginStart = global::LletraMovil.Droid.Resource.Attribute.titleMarginStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleMarginTop = global::LletraMovil.Droid.Resource.Attribute.titleMarginTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleMargins = global::LletraMovil.Droid.Resource.Attribute.titleMargins;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleTextAppearance = global::LletraMovil.Droid.Resource.Attribute.titleTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleTextColor = global::LletraMovil.Droid.Resource.Attribute.titleTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.titleTextStyle = global::LletraMovil.Droid.Resource.Attribute.titleTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.toolbarId = global::LletraMovil.Droid.Resource.Attribute.toolbarId;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::LletraMovil.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.toolbarStyle = global::LletraMovil.Droid.Resource.Attribute.toolbarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tooltipForegroundColor = global::LletraMovil.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tooltipFrameBackground = global::LletraMovil.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.tooltipText = global::LletraMovil.Droid.Resource.Attribute.tooltipText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.track = global::LletraMovil.Droid.Resource.Attribute.track;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.trackTint = global::LletraMovil.Droid.Resource.Attribute.trackTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.trackTintMode = global::LletraMovil.Droid.Resource.Attribute.trackTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.useCompatPadding = global::LletraMovil.Droid.Resource.Attribute.useCompatPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.voiceIcon = global::LletraMovil.Droid.Resource.Attribute.voiceIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowActionBar = global::LletraMovil.Droid.Resource.Attribute.windowActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowActionBarOverlay = global::LletraMovil.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowActionModeOverlay = global::LletraMovil.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowFixedHeightMajor = global::LletraMovil.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowFixedHeightMinor = global::LletraMovil.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowFixedWidthMajor = global::LletraMovil.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowFixedWidthMinor = global::LletraMovil.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowMinWidthMajor = global::LletraMovil.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowMinWidthMinor = global::LletraMovil.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Attribute.windowNoTitle = global::LletraMovil.Droid.Resource.Attribute.windowNoTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::LletraMovil.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::LletraMovil.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LletraMovil.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LletraMovil.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::LletraMovil.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::LletraMovil.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_btn_colored_text_material = global::LletraMovil.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_color_highlight_material = global::LletraMovil.Droid.Resource.Color.abc_color_highlight_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_hint_foreground_material_dark = global::LletraMovil.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_hint_foreground_material_light = global::LletraMovil.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_input_method_navigation_guard = global::LletraMovil.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::LletraMovil.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::LletraMovil.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_primary_text_material_dark = global::LletraMovil.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_primary_text_material_light = global::LletraMovil.Droid.Resource.Color.abc_primary_text_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_search_url_text = global::LletraMovil.Droid.Resource.Color.abc_search_url_text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_search_url_text_normal = global::LletraMovil.Droid.Resource.Color.abc_search_url_text_normal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_search_url_text_pressed = global::LletraMovil.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_search_url_text_selected = global::LletraMovil.Droid.Resource.Color.abc_search_url_text_selected;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_secondary_text_material_dark = global::LletraMovil.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_secondary_text_material_light = global::LletraMovil.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_tint_btn_checkable = global::LletraMovil.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_tint_default = global::LletraMovil.Droid.Resource.Color.abc_tint_default;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_tint_edittext = global::LletraMovil.Droid.Resource.Color.abc_tint_edittext;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_tint_seek_thumb = global::LletraMovil.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_tint_spinner = global::LletraMovil.Droid.Resource.Color.abc_tint_spinner;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.abc_tint_switch_track = global::LletraMovil.Droid.Resource.Color.abc_tint_switch_track;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.accent_material_dark = global::LletraMovil.Droid.Resource.Color.accent_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.accent_material_light = global::LletraMovil.Droid.Resource.Color.accent_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.background_floating_material_dark = global::LletraMovil.Droid.Resource.Color.background_floating_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.background_floating_material_light = global::LletraMovil.Droid.Resource.Color.background_floating_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.background_material_dark = global::LletraMovil.Droid.Resource.Color.background_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.background_material_light = global::LletraMovil.Droid.Resource.Color.background_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::LletraMovil.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.bright_foreground_disabled_material_light = global::LletraMovil.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::LletraMovil.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.bright_foreground_inverse_material_light = global::LletraMovil.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.bright_foreground_material_dark = global::LletraMovil.Droid.Resource.Color.bright_foreground_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.bright_foreground_material_light = global::LletraMovil.Droid.Resource.Color.bright_foreground_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.button_material_dark = global::LletraMovil.Droid.Resource.Color.button_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.button_material_light = global::LletraMovil.Droid.Resource.Color.button_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.cardview_dark_background = global::LletraMovil.Droid.Resource.Color.cardview_dark_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.cardview_light_background = global::LletraMovil.Droid.Resource.Color.cardview_light_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.cardview_shadow_end_color = global::LletraMovil.Droid.Resource.Color.cardview_shadow_end_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.cardview_shadow_start_color = global::LletraMovil.Droid.Resource.Color.cardview_shadow_start_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::LletraMovil.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_error = global::LletraMovil.Droid.Resource.Color.design_error;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_fab_shadow_end_color = global::LletraMovil.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_fab_shadow_mid_color = global::LletraMovil.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_fab_shadow_start_color = global::LletraMovil.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::LletraMovil.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::LletraMovil.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::LletraMovil.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::LletraMovil.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_snackbar_background_color = global::LletraMovil.Droid.Resource.Color.design_snackbar_background_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.design_tint_password_toggle = global::LletraMovil.Droid.Resource.Color.design_tint_password_toggle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::LletraMovil.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.dim_foreground_disabled_material_light = global::LletraMovil.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.dim_foreground_material_dark = global::LletraMovil.Droid.Resource.Color.dim_foreground_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.dim_foreground_material_light = global::LletraMovil.Droid.Resource.Color.dim_foreground_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.foreground_material_dark = global::LletraMovil.Droid.Resource.Color.foreground_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.foreground_material_light = global::LletraMovil.Droid.Resource.Color.foreground_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.highlighted_text_material_dark = global::LletraMovil.Droid.Resource.Color.highlighted_text_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.highlighted_text_material_light = global::LletraMovil.Droid.Resource.Color.highlighted_text_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_blue_grey_800 = global::LletraMovil.Droid.Resource.Color.material_blue_grey_800;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_blue_grey_900 = global::LletraMovil.Droid.Resource.Color.material_blue_grey_900;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_blue_grey_950 = global::LletraMovil.Droid.Resource.Color.material_blue_grey_950;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_deep_teal_200 = global::LletraMovil.Droid.Resource.Color.material_deep_teal_200;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_deep_teal_500 = global::LletraMovil.Droid.Resource.Color.material_deep_teal_500;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_grey_100 = global::LletraMovil.Droid.Resource.Color.material_grey_100;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_grey_300 = global::LletraMovil.Droid.Resource.Color.material_grey_300;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_grey_50 = global::LletraMovil.Droid.Resource.Color.material_grey_50;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_grey_600 = global::LletraMovil.Droid.Resource.Color.material_grey_600;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_grey_800 = global::LletraMovil.Droid.Resource.Color.material_grey_800;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_grey_850 = global::LletraMovil.Droid.Resource.Color.material_grey_850;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.material_grey_900 = global::LletraMovil.Droid.Resource.Color.material_grey_900;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.notification_action_color_filter = global::LletraMovil.Droid.Resource.Color.notification_action_color_filter;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.notification_icon_bg_color = global::LletraMovil.Droid.Resource.Color.notification_icon_bg_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.notification_material_background_media_default_color = global::LletraMovil.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.primary_dark_material_dark = global::LletraMovil.Droid.Resource.Color.primary_dark_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.primary_dark_material_light = global::LletraMovil.Droid.Resource.Color.primary_dark_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.primary_material_dark = global::LletraMovil.Droid.Resource.Color.primary_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.primary_material_light = global::LletraMovil.Droid.Resource.Color.primary_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.primary_text_default_material_dark = global::LletraMovil.Droid.Resource.Color.primary_text_default_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.primary_text_default_material_light = global::LletraMovil.Droid.Resource.Color.primary_text_default_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.primary_text_disabled_material_dark = global::LletraMovil.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.primary_text_disabled_material_light = global::LletraMovil.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.ripple_material_dark = global::LletraMovil.Droid.Resource.Color.ripple_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.ripple_material_light = global::LletraMovil.Droid.Resource.Color.ripple_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.secondary_text_default_material_dark = global::LletraMovil.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.secondary_text_default_material_light = global::LletraMovil.Droid.Resource.Color.secondary_text_default_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.secondary_text_disabled_material_dark = global::LletraMovil.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.secondary_text_disabled_material_light = global::LletraMovil.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::LletraMovil.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.switch_thumb_disabled_material_light = global::LletraMovil.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.switch_thumb_material_dark = global::LletraMovil.Droid.Resource.Color.switch_thumb_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.switch_thumb_material_light = global::LletraMovil.Droid.Resource.Color.switch_thumb_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.switch_thumb_normal_material_dark = global::LletraMovil.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.switch_thumb_normal_material_light = global::LletraMovil.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.tooltip_background_dark = global::LletraMovil.Droid.Resource.Color.tooltip_background_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Color.tooltip_background_light = global::LletraMovil.Droid.Resource.Color.tooltip_background_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_button_min_height_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_button_min_width_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LletraMovil.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LletraMovil.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::LletraMovil.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::LletraMovil.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::LletraMovil.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::LletraMovil.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::LletraMovil.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::LletraMovil.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_control_corner_material = global::LletraMovil.Droid.Resource.Dimension.abc_control_corner_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_control_inset_material = global::LletraMovil.Droid.Resource.Dimension.abc_control_inset_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_control_padding_material = global::LletraMovil.Droid.Resource.Dimension.abc_control_padding_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_min_width_major = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_padding_material = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::LletraMovil.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::LletraMovil.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::LletraMovil.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::LletraMovil.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LletraMovil.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LletraMovil.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LletraMovil.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LletraMovil.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::LletraMovil.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_floating_window_z = global::LletraMovil.Droid.Resource.Dimension.abc_floating_window_z;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LletraMovil.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_panel_menu_list_width = global::LletraMovil.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_progress_bar_height_material = global::LletraMovil.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_search_view_preferred_height = global::LletraMovil.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_search_view_preferred_width = global::LletraMovil.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::LletraMovil.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LletraMovil.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::LletraMovil.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_switch_padding = global::LletraMovil.Droid.Resource.Dimension.abc_switch_padding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_body_1_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_body_2_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_button_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_caption_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_display_1_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_display_2_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_display_3_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_display_4_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_headline_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_large_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_medium_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_menu_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_small_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_subhead_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_title_material = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::LletraMovil.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::LletraMovil.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.cardview_default_elevation = global::LletraMovil.Droid.Resource.Dimension.cardview_default_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.cardview_default_radius = global::LletraMovil.Droid.Resource.Dimension.cardview_default_radius;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::LletraMovil.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::LletraMovil.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::LletraMovil.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::LletraMovil.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.compat_control_corner_material = global::LletraMovil.Droid.Resource.Dimension.compat_control_corner_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_appbar_elevation = global::LletraMovil.Droid.Resource.Dimension.design_appbar_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::LletraMovil.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::LletraMovil.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::LletraMovil.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_height = global::LletraMovil.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::LletraMovil.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::LletraMovil.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_margin = global::LletraMovil.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::LletraMovil.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::LletraMovil.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::LletraMovil.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::LletraMovil.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_fab_border_width = global::LletraMovil.Droid.Resource.Dimension.design_fab_border_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_fab_elevation = global::LletraMovil.Droid.Resource.Dimension.design_fab_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_fab_image_size = global::LletraMovil.Droid.Resource.Dimension.design_fab_image_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_fab_size_mini = global::LletraMovil.Droid.Resource.Dimension.design_fab_size_mini;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_fab_size_normal = global::LletraMovil.Droid.Resource.Dimension.design_fab_size_normal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::LletraMovil.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_navigation_elevation = global::LletraMovil.Droid.Resource.Dimension.design_navigation_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_navigation_icon_padding = global::LletraMovil.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_navigation_icon_size = global::LletraMovil.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_navigation_max_width = global::LletraMovil.Droid.Resource.Dimension.design_navigation_max_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_navigation_padding_bottom = global::LletraMovil.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::LletraMovil.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_elevation = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_max_width = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_min_width = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_snackbar_text_size = global::LletraMovil.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_tab_max_width = global::LletraMovil.Droid.Resource.Dimension.design_tab_max_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::LletraMovil.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_tab_text_size = global::LletraMovil.Droid.Resource.Dimension.design_tab_text_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.design_tab_text_size_2line = global::LletraMovil.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.disabled_alpha_material_dark = global::LletraMovil.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.disabled_alpha_material_light = global::LletraMovil.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.fastscroll_default_thickness = global::LletraMovil.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.fastscroll_margin = global::LletraMovil.Droid.Resource.Dimension.fastscroll_margin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.fastscroll_minimum_range = global::LletraMovil.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.highlight_alpha_material_colored = global::LletraMovil.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.highlight_alpha_material_dark = global::LletraMovil.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.highlight_alpha_material_light = global::LletraMovil.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.hint_alpha_material_dark = global::LletraMovil.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.hint_alpha_material_light = global::LletraMovil.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::LletraMovil.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::LletraMovil.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::LletraMovil.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::LletraMovil.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::LletraMovil.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::LletraMovil.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::LletraMovil.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::LletraMovil.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::LletraMovil.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::LletraMovil.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::LletraMovil.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_action_icon_size = global::LletraMovil.Droid.Resource.Dimension.notification_action_icon_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_action_text_size = global::LletraMovil.Droid.Resource.Dimension.notification_action_text_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_big_circle_margin = global::LletraMovil.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_content_margin_start = global::LletraMovil.Droid.Resource.Dimension.notification_content_margin_start;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_large_icon_height = global::LletraMovil.Droid.Resource.Dimension.notification_large_icon_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_large_icon_width = global::LletraMovil.Droid.Resource.Dimension.notification_large_icon_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_main_column_padding_top = global::LletraMovil.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_media_narrow_margin = global::LletraMovil.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_right_icon_size = global::LletraMovil.Droid.Resource.Dimension.notification_right_icon_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_right_side_padding_top = global::LletraMovil.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_small_icon_background_padding = global::LletraMovil.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::LletraMovil.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_subtext_size = global::LletraMovil.Droid.Resource.Dimension.notification_subtext_size;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_top_pad = global::LletraMovil.Droid.Resource.Dimension.notification_top_pad;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.notification_top_pad_large_text = global::LletraMovil.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.tooltip_corner_radius = global::LletraMovil.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.tooltip_horizontal_padding = global::LletraMovil.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.tooltip_margin = global::LletraMovil.Droid.Resource.Dimension.tooltip_margin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::LletraMovil.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::LletraMovil.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.tooltip_vertical_padding = global::LletraMovil.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::LletraMovil.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Dimension.tooltip_y_offset_touch = global::LletraMovil.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::LletraMovil.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_borderless_material = global::LletraMovil.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_check_material = global::LletraMovil.Droid.Resource.Drawable.abc_btn_check_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LletraMovil.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LletraMovil.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_colored_material = global::LletraMovil.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::LletraMovil.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_radio_material = global::LletraMovil.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LletraMovil.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LletraMovil.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LletraMovil.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LletraMovil.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::LletraMovil.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_cab_background_top_material = global::LletraMovil.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_control_background_material = global::LletraMovil.Droid.Resource.Drawable.abc_control_background_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_dialog_material_background = global::LletraMovil.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_edit_text_material = global::LletraMovil.Droid.Resource.Drawable.abc_edit_text_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_ab_back_material = global::LletraMovil.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::LletraMovil.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_clear_material = global::LletraMovil.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::LletraMovil.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::LletraMovil.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_search_api_material = global::LletraMovil.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::LletraMovil.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::LletraMovil.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::LletraMovil.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::LletraMovil.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::LletraMovil.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::LletraMovil.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::LletraMovil.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_item_background_holo_dark = global::LletraMovil.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_item_background_holo_light = global::LletraMovil.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_focused_holo = global::LletraMovil.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_longpressed_holo = global::LletraMovil.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::LletraMovil.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::LletraMovil.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LletraMovil.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LletraMovil.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LletraMovil.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LletraMovil.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::LletraMovil.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_list_selector_holo_light = global::LletraMovil.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LletraMovil.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::LletraMovil.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::LletraMovil.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ratingbar_material = global::LletraMovil.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_ratingbar_small_material = global::LletraMovil.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LletraMovil.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LletraMovil.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::LletraMovil.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::LletraMovil.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_seekbar_track_material = global::LletraMovil.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::LletraMovil.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_switch_thumb_material = global::LletraMovil.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_tab_indicator_material = global::LletraMovil.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_text_cursor_material = global::LletraMovil.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::LletraMovil.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::LletraMovil.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::LletraMovil.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::LletraMovil.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::LletraMovil.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::LletraMovil.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LletraMovil.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_textfield_search_material = global::LletraMovil.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.abc_vector_test = global::LletraMovil.Droid.Resource.Drawable.abc_vector_test;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.avd_hide_password = global::LletraMovil.Droid.Resource.Drawable.avd_hide_password;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.avd_show_password = global::LletraMovil.Droid.Resource.Drawable.avd_show_password;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::LletraMovil.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.design_fab_background = global::LletraMovil.Droid.Resource.Drawable.design_fab_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.design_ic_visibility = global::LletraMovil.Droid.Resource.Drawable.design_ic_visibility;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.design_ic_visibility_off = global::LletraMovil.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.design_password_eye = global::LletraMovil.Droid.Resource.Drawable.design_password_eye;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.design_snackbar_background = global::LletraMovil.Droid.Resource.Drawable.design_snackbar_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.hide_password = global::LletraMovil.Droid.Resource.Drawable.hide_password;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_audiotrack_dark = global::LletraMovil.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_audiotrack_light = global::LletraMovil.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_dialog_close_dark = global::LletraMovil.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_dialog_close_light = global::LletraMovil.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_00 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_01 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_02 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_03 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_04 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_05 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_06 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_07 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_08 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_09 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_10 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_11 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_12 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_13 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_14 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_collapse_15 = global::LletraMovil.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_00 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_00;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_01 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_01;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_02 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_02;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_03 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_03;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_04 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_04;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_05 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_05;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_06 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_06;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_07 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_07;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_08 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_08;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_09 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_09;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_10 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_10;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_11 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_11;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_12 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_12;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_13 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_13;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_14 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_14;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_group_expand_15 = global::LletraMovil.Droid.Resource.Drawable.ic_group_expand_15;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_media_pause_dark = global::LletraMovil.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_media_pause_light = global::LletraMovil.Droid.Resource.Drawable.ic_media_pause_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_media_play_dark = global::LletraMovil.Droid.Resource.Drawable.ic_media_play_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_media_play_light = global::LletraMovil.Droid.Resource.Drawable.ic_media_play_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_media_stop_dark = global::LletraMovil.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_media_stop_light = global::LletraMovil.Droid.Resource.Drawable.ic_media_stop_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_mr_button_grey = global::LletraMovil.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::LletraMovil.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::LletraMovil.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::LletraMovil.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::LletraMovil.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::LletraMovil.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.ic_vol_type_tv_light = global::LletraMovil.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_button_connected_dark = global::LletraMovil.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_button_connected_light = global::LletraMovil.Droid.Resource.Drawable.mr_button_connected_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_button_connecting_dark = global::LletraMovil.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_button_connecting_light = global::LletraMovil.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_button_dark = global::LletraMovil.Droid.Resource.Drawable.mr_button_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_button_light = global::LletraMovil.Droid.Resource.Drawable.mr_button_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_dialog_close_dark = global::LletraMovil.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_dialog_close_light = global::LletraMovil.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::LletraMovil.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_dialog_material_background_light = global::LletraMovil.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_group_collapse = global::LletraMovil.Droid.Resource.Drawable.mr_group_collapse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_group_expand = global::LletraMovil.Droid.Resource.Drawable.mr_group_expand;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_media_pause_dark = global::LletraMovil.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_media_pause_light = global::LletraMovil.Droid.Resource.Drawable.mr_media_pause_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_media_play_dark = global::LletraMovil.Droid.Resource.Drawable.mr_media_play_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_media_play_light = global::LletraMovil.Droid.Resource.Drawable.mr_media_play_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_media_stop_dark = global::LletraMovil.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_media_stop_light = global::LletraMovil.Droid.Resource.Drawable.mr_media_stop_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::LletraMovil.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::LletraMovil.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.navigation_empty_icon = global::LletraMovil.Droid.Resource.Drawable.navigation_empty_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_action_background = global::LletraMovil.Droid.Resource.Drawable.notification_action_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_bg = global::LletraMovil.Droid.Resource.Drawable.notification_bg;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_bg_low = global::LletraMovil.Droid.Resource.Drawable.notification_bg_low;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_bg_low_normal = global::LletraMovil.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_bg_low_pressed = global::LletraMovil.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_bg_normal = global::LletraMovil.Droid.Resource.Drawable.notification_bg_normal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_bg_normal_pressed = global::LletraMovil.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_icon_background = global::LletraMovil.Droid.Resource.Drawable.notification_icon_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_template_icon_bg = global::LletraMovil.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_template_icon_low_bg = global::LletraMovil.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notification_tile_bg = global::LletraMovil.Droid.Resource.Drawable.notification_tile_bg;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::LletraMovil.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.show_password = global::LletraMovil.Droid.Resource.Drawable.show_password;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.tooltip_frame_dark = global::LletraMovil.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Drawable.tooltip_frame_light = global::LletraMovil.Droid.Resource.Drawable.tooltip_frame_light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.ALT = global::LletraMovil.Droid.Resource.Id.ALT;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.CTRL = global::LletraMovil.Droid.Resource.Id.CTRL;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.FUNCTION = global::LletraMovil.Droid.Resource.Id.FUNCTION;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.META = global::LletraMovil.Droid.Resource.Id.META;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.SHIFT = global::LletraMovil.Droid.Resource.Id.SHIFT;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.SYM = global::LletraMovil.Droid.Resource.Id.SYM;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action0 = global::LletraMovil.Droid.Resource.Id.action0;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_bar = global::LletraMovil.Droid.Resource.Id.action_bar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_bar_activity_content = global::LletraMovil.Droid.Resource.Id.action_bar_activity_content;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_bar_container = global::LletraMovil.Droid.Resource.Id.action_bar_container;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_bar_root = global::LletraMovil.Droid.Resource.Id.action_bar_root;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_bar_spinner = global::LletraMovil.Droid.Resource.Id.action_bar_spinner;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_bar_subtitle = global::LletraMovil.Droid.Resource.Id.action_bar_subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_bar_title = global::LletraMovil.Droid.Resource.Id.action_bar_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_container = global::LletraMovil.Droid.Resource.Id.action_container;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_context_bar = global::LletraMovil.Droid.Resource.Id.action_context_bar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_divider = global::LletraMovil.Droid.Resource.Id.action_divider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_image = global::LletraMovil.Droid.Resource.Id.action_image;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_menu_divider = global::LletraMovil.Droid.Resource.Id.action_menu_divider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_menu_presenter = global::LletraMovil.Droid.Resource.Id.action_menu_presenter;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_mode_bar = global::LletraMovil.Droid.Resource.Id.action_mode_bar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_mode_bar_stub = global::LletraMovil.Droid.Resource.Id.action_mode_bar_stub;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_mode_close_button = global::LletraMovil.Droid.Resource.Id.action_mode_close_button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.action_text = global::LletraMovil.Droid.Resource.Id.action_text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.actions = global::LletraMovil.Droid.Resource.Id.actions;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.activity_chooser_view_content = global::LletraMovil.Droid.Resource.Id.activity_chooser_view_content;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.add = global::LletraMovil.Droid.Resource.Id.add;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.alertTitle = global::LletraMovil.Droid.Resource.Id.alertTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.all = global::LletraMovil.Droid.Resource.Id.all;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.always = global::LletraMovil.Droid.Resource.Id.always;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.async = global::LletraMovil.Droid.Resource.Id.async;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.auto = global::LletraMovil.Droid.Resource.Id.auto;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.beginning = global::LletraMovil.Droid.Resource.Id.beginning;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.blocking = global::LletraMovil.Droid.Resource.Id.blocking;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.bottom = global::LletraMovil.Droid.Resource.Id.bottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.buttonPanel = global::LletraMovil.Droid.Resource.Id.buttonPanel;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.cancel_action = global::LletraMovil.Droid.Resource.Id.cancel_action;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.center = global::LletraMovil.Droid.Resource.Id.center;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.center_horizontal = global::LletraMovil.Droid.Resource.Id.center_horizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.center_vertical = global::LletraMovil.Droid.Resource.Id.center_vertical;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.checkbox = global::LletraMovil.Droid.Resource.Id.checkbox;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.chronometer = global::LletraMovil.Droid.Resource.Id.chronometer;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.clip_horizontal = global::LletraMovil.Droid.Resource.Id.clip_horizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.clip_vertical = global::LletraMovil.Droid.Resource.Id.clip_vertical;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.collapseActionView = global::LletraMovil.Droid.Resource.Id.collapseActionView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.container = global::LletraMovil.Droid.Resource.Id.container;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.contentPanel = global::LletraMovil.Droid.Resource.Id.contentPanel;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.coordinator = global::LletraMovil.Droid.Resource.Id.coordinator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.custom = global::LletraMovil.Droid.Resource.Id.custom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.customPanel = global::LletraMovil.Droid.Resource.Id.customPanel;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.decor_content_parent = global::LletraMovil.Droid.Resource.Id.decor_content_parent;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.default_activity_button = global::LletraMovil.Droid.Resource.Id.default_activity_button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.design_bottom_sheet = global::LletraMovil.Droid.Resource.Id.design_bottom_sheet;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.design_menu_item_action_area = global::LletraMovil.Droid.Resource.Id.design_menu_item_action_area;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.design_menu_item_action_area_stub = global::LletraMovil.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.design_menu_item_text = global::LletraMovil.Droid.Resource.Id.design_menu_item_text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.design_navigation_view = global::LletraMovil.Droid.Resource.Id.design_navigation_view;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.disableHome = global::LletraMovil.Droid.Resource.Id.disableHome;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.edit_query = global::LletraMovil.Droid.Resource.Id.edit_query;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.end = global::LletraMovil.Droid.Resource.Id.end;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.end_padder = global::LletraMovil.Droid.Resource.Id.end_padder;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.enterAlways = global::LletraMovil.Droid.Resource.Id.enterAlways;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.enterAlwaysCollapsed = global::LletraMovil.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.exitUntilCollapsed = global::LletraMovil.Droid.Resource.Id.exitUntilCollapsed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.expand_activities_button = global::LletraMovil.Droid.Resource.Id.expand_activities_button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.expanded_menu = global::LletraMovil.Droid.Resource.Id.expanded_menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.fill = global::LletraMovil.Droid.Resource.Id.fill;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.fill_horizontal = global::LletraMovil.Droid.Resource.Id.fill_horizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.fill_vertical = global::LletraMovil.Droid.Resource.Id.fill_vertical;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.@fixed = global::LletraMovil.Droid.Resource.Id.@fixed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.forever = global::LletraMovil.Droid.Resource.Id.forever;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.ghost_view = global::LletraMovil.Droid.Resource.Id.ghost_view;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.home = global::LletraMovil.Droid.Resource.Id.home;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.homeAsUp = global::LletraMovil.Droid.Resource.Id.homeAsUp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.icon = global::LletraMovil.Droid.Resource.Id.icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.icon_group = global::LletraMovil.Droid.Resource.Id.icon_group;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.ifRoom = global::LletraMovil.Droid.Resource.Id.ifRoom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.image = global::LletraMovil.Droid.Resource.Id.image;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.info = global::LletraMovil.Droid.Resource.Id.info;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.italic = global::LletraMovil.Droid.Resource.Id.italic;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.item_touch_helper_previous_elevation = global::LletraMovil.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.largeLabel = global::LletraMovil.Droid.Resource.Id.largeLabel;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.left = global::LletraMovil.Droid.Resource.Id.left;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.line1 = global::LletraMovil.Droid.Resource.Id.line1;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.line3 = global::LletraMovil.Droid.Resource.Id.line3;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.listMode = global::LletraMovil.Droid.Resource.Id.listMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.list_item = global::LletraMovil.Droid.Resource.Id.list_item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.masked = global::LletraMovil.Droid.Resource.Id.masked;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.media_actions = global::LletraMovil.Droid.Resource.Id.media_actions;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.message = global::LletraMovil.Droid.Resource.Id.message;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.middle = global::LletraMovil.Droid.Resource.Id.middle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mini = global::LletraMovil.Droid.Resource.Id.mini;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_art = global::LletraMovil.Droid.Resource.Id.mr_art;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_chooser_list = global::LletraMovil.Droid.Resource.Id.mr_chooser_list;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_chooser_route_desc = global::LletraMovil.Droid.Resource.Id.mr_chooser_route_desc;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_chooser_route_icon = global::LletraMovil.Droid.Resource.Id.mr_chooser_route_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_chooser_route_name = global::LletraMovil.Droid.Resource.Id.mr_chooser_route_name;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_chooser_title = global::LletraMovil.Droid.Resource.Id.mr_chooser_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_close = global::LletraMovil.Droid.Resource.Id.mr_close;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_control_divider = global::LletraMovil.Droid.Resource.Id.mr_control_divider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_control_playback_ctrl = global::LletraMovil.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_control_subtitle = global::LletraMovil.Droid.Resource.Id.mr_control_subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_control_title = global::LletraMovil.Droid.Resource.Id.mr_control_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_control_title_container = global::LletraMovil.Droid.Resource.Id.mr_control_title_container;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_custom_control = global::LletraMovil.Droid.Resource.Id.mr_custom_control;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_default_control = global::LletraMovil.Droid.Resource.Id.mr_default_control;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_dialog_area = global::LletraMovil.Droid.Resource.Id.mr_dialog_area;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_expandable_area = global::LletraMovil.Droid.Resource.Id.mr_expandable_area;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_group_expand_collapse = global::LletraMovil.Droid.Resource.Id.mr_group_expand_collapse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_media_main_control = global::LletraMovil.Droid.Resource.Id.mr_media_main_control;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_name = global::LletraMovil.Droid.Resource.Id.mr_name;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_playback_control = global::LletraMovil.Droid.Resource.Id.mr_playback_control;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_title_bar = global::LletraMovil.Droid.Resource.Id.mr_title_bar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_volume_control = global::LletraMovil.Droid.Resource.Id.mr_volume_control;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_volume_group_list = global::LletraMovil.Droid.Resource.Id.mr_volume_group_list;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_volume_item_icon = global::LletraMovil.Droid.Resource.Id.mr_volume_item_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.mr_volume_slider = global::LletraMovil.Droid.Resource.Id.mr_volume_slider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.multiply = global::LletraMovil.Droid.Resource.Id.multiply;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.navigation_header_container = global::LletraMovil.Droid.Resource.Id.navigation_header_container;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.never = global::LletraMovil.Droid.Resource.Id.never;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.none = global::LletraMovil.Droid.Resource.Id.none;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.normal = global::LletraMovil.Droid.Resource.Id.normal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.notification_background = global::LletraMovil.Droid.Resource.Id.notification_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.notification_main_column = global::LletraMovil.Droid.Resource.Id.notification_main_column;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.notification_main_column_container = global::LletraMovil.Droid.Resource.Id.notification_main_column_container;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.parallax = global::LletraMovil.Droid.Resource.Id.parallax;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.parentPanel = global::LletraMovil.Droid.Resource.Id.parentPanel;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.parent_matrix = global::LletraMovil.Droid.Resource.Id.parent_matrix;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.pin = global::LletraMovil.Droid.Resource.Id.pin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.progress_circular = global::LletraMovil.Droid.Resource.Id.progress_circular;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.progress_horizontal = global::LletraMovil.Droid.Resource.Id.progress_horizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.radio = global::LletraMovil.Droid.Resource.Id.radio;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.right = global::LletraMovil.Droid.Resource.Id.right;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.right_icon = global::LletraMovil.Droid.Resource.Id.right_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.right_side = global::LletraMovil.Droid.Resource.Id.right_side;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.save_image_matrix = global::LletraMovil.Droid.Resource.Id.save_image_matrix;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.save_non_transition_alpha = global::LletraMovil.Droid.Resource.Id.save_non_transition_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.save_scale_type = global::LletraMovil.Droid.Resource.Id.save_scale_type;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.screen = global::LletraMovil.Droid.Resource.Id.screen;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.scroll = global::LletraMovil.Droid.Resource.Id.scroll;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.scrollIndicatorDown = global::LletraMovil.Droid.Resource.Id.scrollIndicatorDown;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.scrollIndicatorUp = global::LletraMovil.Droid.Resource.Id.scrollIndicatorUp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.scrollView = global::LletraMovil.Droid.Resource.Id.scrollView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.scrollable = global::LletraMovil.Droid.Resource.Id.scrollable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_badge = global::LletraMovil.Droid.Resource.Id.search_badge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_bar = global::LletraMovil.Droid.Resource.Id.search_bar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_button = global::LletraMovil.Droid.Resource.Id.search_button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_close_btn = global::LletraMovil.Droid.Resource.Id.search_close_btn;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_edit_frame = global::LletraMovil.Droid.Resource.Id.search_edit_frame;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_go_btn = global::LletraMovil.Droid.Resource.Id.search_go_btn;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_mag_icon = global::LletraMovil.Droid.Resource.Id.search_mag_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_plate = global::LletraMovil.Droid.Resource.Id.search_plate;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_src_text = global::LletraMovil.Droid.Resource.Id.search_src_text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.search_voice_btn = global::LletraMovil.Droid.Resource.Id.search_voice_btn;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.select_dialog_listview = global::LletraMovil.Droid.Resource.Id.select_dialog_listview;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.shortcut = global::LletraMovil.Droid.Resource.Id.shortcut;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.showCustom = global::LletraMovil.Droid.Resource.Id.showCustom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.showHome = global::LletraMovil.Droid.Resource.Id.showHome;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.showTitle = global::LletraMovil.Droid.Resource.Id.showTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.smallLabel = global::LletraMovil.Droid.Resource.Id.smallLabel;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.snackbar_action = global::LletraMovil.Droid.Resource.Id.snackbar_action;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.snackbar_text = global::LletraMovil.Droid.Resource.Id.snackbar_text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.snap = global::LletraMovil.Droid.Resource.Id.snap;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.spacer = global::LletraMovil.Droid.Resource.Id.spacer;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.split_action_bar = global::LletraMovil.Droid.Resource.Id.split_action_bar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.src_atop = global::LletraMovil.Droid.Resource.Id.src_atop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.src_in = global::LletraMovil.Droid.Resource.Id.src_in;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.src_over = global::LletraMovil.Droid.Resource.Id.src_over;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.start = global::LletraMovil.Droid.Resource.Id.start;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.status_bar_latest_event_content = global::LletraMovil.Droid.Resource.Id.status_bar_latest_event_content;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.submenuarrow = global::LletraMovil.Droid.Resource.Id.submenuarrow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.submit_area = global::LletraMovil.Droid.Resource.Id.submit_area;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.tabMode = global::LletraMovil.Droid.Resource.Id.tabMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.tag_transition_group = global::LletraMovil.Droid.Resource.Id.tag_transition_group;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.text = global::LletraMovil.Droid.Resource.Id.text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.text2 = global::LletraMovil.Droid.Resource.Id.text2;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.textSpacerNoButtons = global::LletraMovil.Droid.Resource.Id.textSpacerNoButtons;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.textSpacerNoTitle = global::LletraMovil.Droid.Resource.Id.textSpacerNoTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.text_input_password_toggle = global::LletraMovil.Droid.Resource.Id.text_input_password_toggle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.textinput_counter = global::LletraMovil.Droid.Resource.Id.textinput_counter;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.textinput_error = global::LletraMovil.Droid.Resource.Id.textinput_error;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.time = global::LletraMovil.Droid.Resource.Id.time;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.title = global::LletraMovil.Droid.Resource.Id.title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.titleDividerNoCustom = global::LletraMovil.Droid.Resource.Id.titleDividerNoCustom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.title_template = global::LletraMovil.Droid.Resource.Id.title_template;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.top = global::LletraMovil.Droid.Resource.Id.top;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.topPanel = global::LletraMovil.Droid.Resource.Id.topPanel;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.touch_outside = global::LletraMovil.Droid.Resource.Id.touch_outside;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.transition_current_scene = global::LletraMovil.Droid.Resource.Id.transition_current_scene;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.transition_layout_save = global::LletraMovil.Droid.Resource.Id.transition_layout_save;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.transition_position = global::LletraMovil.Droid.Resource.Id.transition_position;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.transition_scene_layoutid_cache = global::LletraMovil.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.transition_transform = global::LletraMovil.Droid.Resource.Id.transition_transform;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.uniform = global::LletraMovil.Droid.Resource.Id.uniform;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.up = global::LletraMovil.Droid.Resource.Id.up;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.useLogo = global::LletraMovil.Droid.Resource.Id.useLogo;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.view_offset_helper = global::LletraMovil.Droid.Resource.Id.view_offset_helper;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.visible = global::LletraMovil.Droid.Resource.Id.visible;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.volume_item_container = global::LletraMovil.Droid.Resource.Id.volume_item_container;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.withText = global::LletraMovil.Droid.Resource.Id.withText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Id.wrap_content = global::LletraMovil.Droid.Resource.Id.wrap_content;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.abc_config_activityDefaultDur = global::LletraMovil.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.abc_config_activityShortDur = global::LletraMovil.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::LletraMovil.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.bottom_sheet_slide_duration = global::LletraMovil.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.cancel_button_image_alpha = global::LletraMovil.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.config_tooltipAnimTime = global::LletraMovil.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.design_snackbar_text_max_lines = global::LletraMovil.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.hide_password_duration = global::LletraMovil.Droid.Resource.Integer.hide_password_duration;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::LletraMovil.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::LletraMovil.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::LletraMovil.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.show_password_duration = global::LletraMovil.Droid.Resource.Integer.show_password_duration;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::LletraMovil.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::LletraMovil.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::LletraMovil.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_action_bar_title_item = global::LletraMovil.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_action_bar_up_container = global::LletraMovil.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_action_menu_item_layout = global::LletraMovil.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_action_menu_layout = global::LletraMovil.Droid.Resource.Layout.abc_action_menu_layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_action_mode_bar = global::LletraMovil.Droid.Resource.Layout.abc_action_mode_bar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_action_mode_close_item_material = global::LletraMovil.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_activity_chooser_view = global::LletraMovil.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::LletraMovil.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::LletraMovil.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_alert_dialog_material = global::LletraMovil.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_alert_dialog_title_material = global::LletraMovil.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_dialog_title_material = global::LletraMovil.Droid.Resource.Layout.abc_dialog_title_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_expanded_menu_layout = global::LletraMovil.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::LletraMovil.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_list_menu_item_icon = global::LletraMovil.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_list_menu_item_layout = global::LletraMovil.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_list_menu_item_radio = global::LletraMovil.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::LletraMovil.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_popup_menu_item_layout = global::LletraMovil.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_screen_content_include = global::LletraMovil.Droid.Resource.Layout.abc_screen_content_include;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_screen_simple = global::LletraMovil.Droid.Resource.Layout.abc_screen_simple;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LletraMovil.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_screen_toolbar = global::LletraMovil.Droid.Resource.Layout.abc_screen_toolbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LletraMovil.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_search_view = global::LletraMovil.Droid.Resource.Layout.abc_search_view;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.abc_select_dialog_material = global::LletraMovil.Droid.Resource.Layout.abc_select_dialog_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_bottom_navigation_item = global::LletraMovil.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_bottom_sheet_dialog = global::LletraMovil.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_layout_snackbar = global::LletraMovil.Droid.Resource.Layout.design_layout_snackbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_layout_snackbar_include = global::LletraMovil.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_layout_tab_icon = global::LletraMovil.Droid.Resource.Layout.design_layout_tab_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_layout_tab_text = global::LletraMovil.Droid.Resource.Layout.design_layout_tab_text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_menu_item_action_area = global::LletraMovil.Droid.Resource.Layout.design_menu_item_action_area;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_navigation_item = global::LletraMovil.Droid.Resource.Layout.design_navigation_item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_navigation_item_header = global::LletraMovil.Droid.Resource.Layout.design_navigation_item_header;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_navigation_item_separator = global::LletraMovil.Droid.Resource.Layout.design_navigation_item_separator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_navigation_item_subheader = global::LletraMovil.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_navigation_menu = global::LletraMovil.Droid.Resource.Layout.design_navigation_menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_navigation_menu_item = global::LletraMovil.Droid.Resource.Layout.design_navigation_menu_item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.design_text_input_password_icon = global::LletraMovil.Droid.Resource.Layout.design_text_input_password_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.mr_chooser_dialog = global::LletraMovil.Droid.Resource.Layout.mr_chooser_dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.mr_chooser_list_item = global::LletraMovil.Droid.Resource.Layout.mr_chooser_list_item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.mr_controller_material_dialog_b = global::LletraMovil.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.mr_controller_volume_item = global::LletraMovil.Droid.Resource.Layout.mr_controller_volume_item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.mr_playback_control = global::LletraMovil.Droid.Resource.Layout.mr_playback_control;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.mr_volume_control = global::LletraMovil.Droid.Resource.Layout.mr_volume_control;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_action = global::LletraMovil.Droid.Resource.Layout.notification_action;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_action_tombstone = global::LletraMovil.Droid.Resource.Layout.notification_action_tombstone;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_media_action = global::LletraMovil.Droid.Resource.Layout.notification_media_action;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_media_cancel_action = global::LletraMovil.Droid.Resource.Layout.notification_media_cancel_action;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_big_media = global::LletraMovil.Droid.Resource.Layout.notification_template_big_media;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_big_media_custom = global::LletraMovil.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_big_media_narrow = global::LletraMovil.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::LletraMovil.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_custom_big = global::LletraMovil.Droid.Resource.Layout.notification_template_custom_big;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_icon_group = global::LletraMovil.Droid.Resource.Layout.notification_template_icon_group;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_lines_media = global::LletraMovil.Droid.Resource.Layout.notification_template_lines_media;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_media = global::LletraMovil.Droid.Resource.Layout.notification_template_media;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_media_custom = global::LletraMovil.Droid.Resource.Layout.notification_template_media_custom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_part_chronometer = global::LletraMovil.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.notification_template_part_time = global::LletraMovil.Droid.Resource.Layout.notification_template_part_time;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.select_dialog_item_material = global::LletraMovil.Droid.Resource.Layout.select_dialog_item_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.select_dialog_multichoice_material = global::LletraMovil.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.select_dialog_singlechoice_material = global::LletraMovil.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::LletraMovil.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_action_bar_home_description = global::LletraMovil.Droid.Resource.String.abc_action_bar_home_description;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_action_bar_up_description = global::LletraMovil.Droid.Resource.String.abc_action_bar_up_description;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_action_menu_overflow_description = global::LletraMovil.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_action_mode_done = global::LletraMovil.Droid.Resource.String.abc_action_mode_done;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_activity_chooser_view_see_all = global::LletraMovil.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_activitychooserview_choose_application = global::LletraMovil.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_capital_off = global::LletraMovil.Droid.Resource.String.abc_capital_off;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_capital_on = global::LletraMovil.Droid.Resource.String.abc_capital_on;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_body_1_material = global::LletraMovil.Droid.Resource.String.abc_font_family_body_1_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_body_2_material = global::LletraMovil.Droid.Resource.String.abc_font_family_body_2_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_button_material = global::LletraMovil.Droid.Resource.String.abc_font_family_button_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_caption_material = global::LletraMovil.Droid.Resource.String.abc_font_family_caption_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_display_1_material = global::LletraMovil.Droid.Resource.String.abc_font_family_display_1_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_display_2_material = global::LletraMovil.Droid.Resource.String.abc_font_family_display_2_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_display_3_material = global::LletraMovil.Droid.Resource.String.abc_font_family_display_3_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_display_4_material = global::LletraMovil.Droid.Resource.String.abc_font_family_display_4_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_headline_material = global::LletraMovil.Droid.Resource.String.abc_font_family_headline_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_menu_material = global::LletraMovil.Droid.Resource.String.abc_font_family_menu_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_subhead_material = global::LletraMovil.Droid.Resource.String.abc_font_family_subhead_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_font_family_title_material = global::LletraMovil.Droid.Resource.String.abc_font_family_title_material;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_search_hint = global::LletraMovil.Droid.Resource.String.abc_search_hint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_searchview_description_clear = global::LletraMovil.Droid.Resource.String.abc_searchview_description_clear;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_searchview_description_query = global::LletraMovil.Droid.Resource.String.abc_searchview_description_query;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_searchview_description_search = global::LletraMovil.Droid.Resource.String.abc_searchview_description_search;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_searchview_description_submit = global::LletraMovil.Droid.Resource.String.abc_searchview_description_submit;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_searchview_description_voice = global::LletraMovil.Droid.Resource.String.abc_searchview_description_voice;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_shareactionprovider_share_with = global::LletraMovil.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::LletraMovil.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.abc_toolbar_collapse_description = global::LletraMovil.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.appbar_scrolling_view_behavior = global::LletraMovil.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.bottom_sheet_behavior = global::LletraMovil.Droid.Resource.String.bottom_sheet_behavior;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.character_counter_pattern = global::LletraMovil.Droid.Resource.String.character_counter_pattern;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_button_content_description = global::LletraMovil.Droid.Resource.String.mr_button_content_description;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_cast_button_connected = global::LletraMovil.Droid.Resource.String.mr_cast_button_connected;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_cast_button_connecting = global::LletraMovil.Droid.Resource.String.mr_cast_button_connecting;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_cast_button_disconnected = global::LletraMovil.Droid.Resource.String.mr_cast_button_disconnected;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_chooser_searching = global::LletraMovil.Droid.Resource.String.mr_chooser_searching;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_chooser_title = global::LletraMovil.Droid.Resource.String.mr_chooser_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_album_art = global::LletraMovil.Droid.Resource.String.mr_controller_album_art;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_casting_screen = global::LletraMovil.Droid.Resource.String.mr_controller_casting_screen;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_close_description = global::LletraMovil.Droid.Resource.String.mr_controller_close_description;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_collapse_group = global::LletraMovil.Droid.Resource.String.mr_controller_collapse_group;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_disconnect = global::LletraMovil.Droid.Resource.String.mr_controller_disconnect;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_expand_group = global::LletraMovil.Droid.Resource.String.mr_controller_expand_group;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_no_info_available = global::LletraMovil.Droid.Resource.String.mr_controller_no_info_available;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_no_media_selected = global::LletraMovil.Droid.Resource.String.mr_controller_no_media_selected;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_pause = global::LletraMovil.Droid.Resource.String.mr_controller_pause;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_play = global::LletraMovil.Droid.Resource.String.mr_controller_play;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_stop = global::LletraMovil.Droid.Resource.String.mr_controller_stop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_stop_casting = global::LletraMovil.Droid.Resource.String.mr_controller_stop_casting;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_controller_volume_slider = global::LletraMovil.Droid.Resource.String.mr_controller_volume_slider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_system_route_name = global::LletraMovil.Droid.Resource.String.mr_system_route_name;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.mr_user_route_category_name = global::LletraMovil.Droid.Resource.String.mr_user_route_category_name;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.password_toggle_content_description = global::LletraMovil.Droid.Resource.String.password_toggle_content_description;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.path_password_eye = global::LletraMovil.Droid.Resource.String.path_password_eye;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.path_password_eye_mask_strike_through = global::LletraMovil.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.path_password_eye_mask_visible = global::LletraMovil.Droid.Resource.String.path_password_eye_mask_visible;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.path_password_strike_through = global::LletraMovil.Droid.Resource.String.path_password_strike_through;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.search_menu_title = global::LletraMovil.Droid.Resource.String.search_menu_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.String.status_bar_notification_info_overflow = global::LletraMovil.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.AlertDialog_AppCompat = global::LletraMovil.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Animation_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::LletraMovil.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::LletraMovil.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::LletraMovil.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LletraMovil.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::LletraMovil.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_CardView = global::LletraMovil.Droid.Resource.Style.Base_CardView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LletraMovil.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LletraMovil.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LletraMovil.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LletraMovil.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LletraMovil.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::LletraMovil.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LletraMovil.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::LletraMovil.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::LletraMovil.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LletraMovil.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LletraMovil.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LletraMovil.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::LletraMovil.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LletraMovil.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::LletraMovil.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.CardView = global::LletraMovil.Droid.Resource.Style.CardView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.CardView_Dark = global::LletraMovil.Droid.Resource.Style.CardView_Dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.CardView_Light = global::LletraMovil.Droid.Resource.Style.CardView_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_AppCompat = global::LletraMovil.Droid.Resource.Style.Platform_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LletraMovil.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LletraMovil.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_V21_AppCompat = global::LletraMovil.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_V25_AppCompat = global::LletraMovil.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LletraMovil.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LletraMovil.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LletraMovil.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LletraMovil.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LletraMovil.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LletraMovil.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::LletraMovil.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::LletraMovil.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Counter = global::LletraMovil.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::LletraMovil.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Error = global::LletraMovil.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Hint = global::LletraMovil.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::LletraMovil.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Tab = global::LletraMovil.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::LletraMovil.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::LletraMovil.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::LletraMovil.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LletraMovil.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LletraMovil.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LletraMovil.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::LletraMovil.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_Design = global::LletraMovil.Droid.Resource.Style.Theme_Design;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::LletraMovil.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_Design_Light = global::LletraMovil.Droid.Resource.Style.Theme_Design_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::LletraMovil.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::LletraMovil.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_Design_NoActionBar = global::LletraMovil.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_MediaRouter = global::LletraMovil.Droid.Resource.Style.Theme_MediaRouter;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_MediaRouter_Light = global::LletraMovil.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::LletraMovil.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::LletraMovil.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat = global::LletraMovil.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LletraMovil.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LletraMovil.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LletraMovil.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::LletraMovil.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::LletraMovil.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::LletraMovil.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::LletraMovil.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::LletraMovil.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_EditText = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_SearchView = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Spinner = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LletraMovil.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::LletraMovil.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::LletraMovil.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_AppBarLayout = global::LletraMovil.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::LletraMovil.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::LletraMovil.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::LletraMovil.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::LletraMovil.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_NavigationView = global::LletraMovil.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::LletraMovil.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_Snackbar = global::LletraMovil.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_TabLayout = global::LletraMovil.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_Design_TextInputLayout = global::LletraMovil.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::LletraMovil.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::LletraMovil.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar = global::LletraMovil.Droid.Resource.Styleable.ActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_background = global::LletraMovil.Droid.Resource.Styleable.ActionBar_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::LletraMovil.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::LletraMovil.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::LletraMovil.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::LletraMovil.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::LletraMovil.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::LletraMovil.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::LletraMovil.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::LletraMovil.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::LletraMovil.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_displayOptions = global::LletraMovil.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_divider = global::LletraMovil.Droid.Resource.Styleable.ActionBar_divider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_elevation = global::LletraMovil.Droid.Resource.Styleable.ActionBar_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_height = global::LletraMovil.Droid.Resource.Styleable.ActionBar_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::LletraMovil.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LletraMovil.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_homeLayout = global::LletraMovil.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_icon = global::LletraMovil.Droid.Resource.Styleable.ActionBar_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LletraMovil.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_itemPadding = global::LletraMovil.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_logo = global::LletraMovil.Droid.Resource.Styleable.ActionBar_logo;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_navigationMode = global::LletraMovil.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_popupTheme = global::LletraMovil.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::LletraMovil.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::LletraMovil.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_subtitle = global::LletraMovil.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::LletraMovil.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_title = global::LletraMovil.Droid.Resource.Styleable.ActionBar_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::LletraMovil.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBarLayout = global::LletraMovil.Droid.Resource.Styleable.ActionBarLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LletraMovil.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMenuItemView = global::LletraMovil.Droid.Resource.Styleable.ActionMenuItemView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LletraMovil.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMenuView = global::LletraMovil.Droid.Resource.Styleable.ActionMenuView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMode = global::LletraMovil.Droid.Resource.Styleable.ActionMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMode_background = global::LletraMovil.Droid.Resource.Styleable.ActionMode_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::LletraMovil.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::LletraMovil.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMode_height = global::LletraMovil.Droid.Resource.Styleable.ActionMode_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::LletraMovil.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::LletraMovil.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActivityChooserView = global::LletraMovil.Droid.Resource.Styleable.ActivityChooserView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LletraMovil.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LletraMovil.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AlertDialog = global::LletraMovil.Droid.Resource.Styleable.AlertDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AlertDialog_android_layout = global::LletraMovil.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LletraMovil.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::LletraMovil.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AlertDialog_listLayout = global::LletraMovil.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LletraMovil.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AlertDialog_showTitle = global::LletraMovil.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LletraMovil.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayout = global::LletraMovil.Droid.Resource.Styleable.AppBarLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_android_background = global::LletraMovil.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::LletraMovil.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::LletraMovil.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_elevation = global::LletraMovil.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_expanded = global::LletraMovil.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayoutStates = global::LletraMovil.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::LletraMovil.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::LletraMovil.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_Layout = global::LletraMovil.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::LletraMovil.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::LletraMovil.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView = global::LletraMovil.Droid.Resource.Styleable.AppCompatImageView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_android_src = global::LletraMovil.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::LletraMovil.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_tint = global::LletraMovil.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::LletraMovil.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar = global::LletraMovil.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::LletraMovil.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::LletraMovil.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::LletraMovil.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::LletraMovil.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::LletraMovil.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorError = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LletraMovil.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView = global::LletraMovil.Droid.Resource.Styleable.BottomNavigationView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_elevation = global::LletraMovil.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::LletraMovil.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::LletraMovil.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::LletraMovil.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomNavigationView_menu = global::LletraMovil.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::LletraMovil.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::LletraMovil.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::LletraMovil.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::LletraMovil.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ButtonBarLayout = global::LletraMovil.Droid.Resource.Styleable.ButtonBarLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::LletraMovil.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView = global::LletraMovil.Droid.Resource.Styleable.CardView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_android_minHeight = global::LletraMovil.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_android_minWidth = global::LletraMovil.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::LletraMovil.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_cardCornerRadius = global::LletraMovil.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_cardElevation = global::LletraMovil.Droid.Resource.Styleable.CardView_cardElevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_cardMaxElevation = global::LletraMovil.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::LletraMovil.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::LletraMovil.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_contentPadding = global::LletraMovil.Droid.Resource.Styleable.CardView_contentPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::LletraMovil.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::LletraMovil.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_contentPaddingRight = global::LletraMovil.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CardView_contentPaddingTop = global::LletraMovil.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::LletraMovil.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem = global::LletraMovil.Droid.Resource.Styleable.ColorStateListItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem_alpha = global::LletraMovil.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::LletraMovil.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem_android_color = global::LletraMovil.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CompoundButton = global::LletraMovil.Droid.Resource.Styleable.CompoundButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CompoundButton_android_button = global::LletraMovil.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CompoundButton_buttonTint = global::LletraMovil.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::LletraMovil.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::LletraMovil.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DesignTheme = global::LletraMovil.Droid.Resource.Styleable.DesignTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::LletraMovil.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::LletraMovil.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle = global::LletraMovil.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LletraMovil.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LletraMovil.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::LletraMovil.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_color = global::LletraMovil.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LletraMovil.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LletraMovil.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::LletraMovil.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::LletraMovil.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_elevation = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::LletraMovil.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamily = global::LletraMovil.Droid.Resource.Styleable.FontFamily;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::LletraMovil.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::LletraMovil.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::LletraMovil.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::LletraMovil.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::LletraMovil.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::LletraMovil.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont = global::LletraMovil.Droid.Resource.Styleable.FontFamilyFont;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_android_font = global::LletraMovil.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::LletraMovil.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::LletraMovil.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_font = global::LletraMovil.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::LletraMovil.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::LletraMovil.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout = global::LletraMovil.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::LletraMovil.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::LletraMovil.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::LletraMovil.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LletraMovil.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ListPopupWindow = global::LletraMovil.Droid.Resource.Styleable.ListPopupWindow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LletraMovil.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LletraMovil.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MediaRouteButton = global::LletraMovil.Droid.Resource.Styleable.MediaRouteButton;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::LletraMovil.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::LletraMovil.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::LletraMovil.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::LletraMovil.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuGroup = global::LletraMovil.Droid.Resource.Styleable.MenuGroup;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LletraMovil.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_enabled = global::LletraMovil.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_id = global::LletraMovil.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::LletraMovil.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::LletraMovil.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_visible = global::LletraMovil.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem = global::LletraMovil.Droid.Resource.Styleable.MenuItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_actionLayout = global::LletraMovil.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::LletraMovil.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_actionViewClass = global::LletraMovil.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::LletraMovil.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_checkable = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_checked = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_enabled = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_icon = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_id = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_id;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_onClick = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_title = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_android_visible = global::LletraMovil.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_contentDescription = global::LletraMovil.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_iconTint = global::LletraMovil.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_iconTintMode = global::LletraMovil.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_numericModifiers = global::LletraMovil.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_showAsAction = global::LletraMovil.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuItem_tooltipText = global::LletraMovil.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView = global::LletraMovil.Droid.Resource.Styleable.MenuView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView_android_headerBackground = global::LletraMovil.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::LletraMovil.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView_android_itemBackground = global::LletraMovil.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LletraMovil.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::LletraMovil.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::LletraMovil.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LletraMovil.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::LletraMovil.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.MenuView_subMenuArrow = global::LletraMovil.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView = global::LletraMovil.Droid.Resource.Styleable.NavigationView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_android_background = global::LletraMovil.Droid.Resource.Styleable.NavigationView_android_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::LletraMovil.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::LletraMovil.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_elevation = global::LletraMovil.Droid.Resource.Styleable.NavigationView_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_headerLayout = global::LletraMovil.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemBackground = global::LletraMovil.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemIconTint = global::LletraMovil.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::LletraMovil.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemTextColor = global::LletraMovil.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.NavigationView_menu = global::LletraMovil.Droid.Resource.Styleable.NavigationView_menu;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.PopupWindow = global::LletraMovil.Droid.Resource.Styleable.PopupWindow;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::LletraMovil.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::LletraMovil.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::LletraMovil.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.PopupWindowBackgroundState = global::LletraMovil.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LletraMovil.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecycleListView = global::LletraMovil.Droid.Resource.Styleable.RecycleListView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::LletraMovil.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::LletraMovil.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView = global::LletraMovil.Droid.Resource.Styleable.RecyclerView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_android_orientation = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_layoutManager = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_spanCount = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::LletraMovil.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::LletraMovil.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::LletraMovil.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::LletraMovil.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::LletraMovil.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView = global::LletraMovil.Droid.Resource.Styleable.SearchView;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_android_focusable = global::LletraMovil.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_android_imeOptions = global::LletraMovil.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_android_inputType = global::LletraMovil.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_android_maxWidth = global::LletraMovil.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_closeIcon = global::LletraMovil.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_commitIcon = global::LletraMovil.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::LletraMovil.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_goIcon = global::LletraMovil.Droid.Resource.Styleable.SearchView_goIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::LletraMovil.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_layout = global::LletraMovil.Droid.Resource.Styleable.SearchView_layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_queryBackground = global::LletraMovil.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_queryHint = global::LletraMovil.Droid.Resource.Styleable.SearchView_queryHint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_searchHintIcon = global::LletraMovil.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_searchIcon = global::LletraMovil.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_submitBackground = global::LletraMovil.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::LletraMovil.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SearchView_voiceIcon = global::LletraMovil.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout = global::LletraMovil.Droid.Resource.Styleable.SnackbarLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::LletraMovil.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout_elevation = global::LletraMovil.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::LletraMovil.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Spinner = global::LletraMovil.Droid.Resource.Styleable.Spinner;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::LletraMovil.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Spinner_android_entries = global::LletraMovil.Droid.Resource.Styleable.Spinner_android_entries;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Spinner_android_popupBackground = global::LletraMovil.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Spinner_android_prompt = global::LletraMovil.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Spinner_popupTheme = global::LletraMovil.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_showText = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_track = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_track;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_trackTint = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::LletraMovil.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabItem = global::LletraMovil.Droid.Resource.Styleable.TabItem;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabItem_android_icon = global::LletraMovil.Droid.Resource.Styleable.TabItem_android_icon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabItem_android_layout = global::LletraMovil.Droid.Resource.Styleable.TabItem_android_layout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabItem_android_text = global::LletraMovil.Droid.Resource.Styleable.TabItem_android_text;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout = global::LletraMovil.Droid.Resource.Styleable.TabLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabBackground = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabContentStart = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabGravity = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabMode = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPadding = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabTextColor = global::LletraMovil.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance = global::LletraMovil.Droid.Resource.Styleable.TextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textColor = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textSize = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_typeface = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_fontFamily = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::LletraMovil.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_android_hint = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::LletraMovil.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar = global::LletraMovil.Droid.Resource.Styleable.Toolbar;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_android_gravity = global::LletraMovil.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_android_minHeight = global::LletraMovil.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_buttonGravity = global::LletraMovil.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::LletraMovil.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_collapseIcon = global::LletraMovil.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::LletraMovil.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::LletraMovil.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::LletraMovil.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::LletraMovil.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::LletraMovil.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::LletraMovil.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_logo = global::LletraMovil.Droid.Resource.Styleable.Toolbar_logo;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_logoDescription = global::LletraMovil.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::LletraMovil.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::LletraMovil.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_navigationIcon = global::LletraMovil.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_popupTheme = global::LletraMovil.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_subtitle = global::LletraMovil.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LletraMovil.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::LletraMovil.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_title = global::LletraMovil.Droid.Resource.Styleable.Toolbar_title;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMargin = global::LletraMovil.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::LletraMovil.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::LletraMovil.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::LletraMovil.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::LletraMovil.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleMargins = global::LletraMovil.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::LletraMovil.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.Toolbar_titleTextColor = global::LletraMovil.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.View = global::LletraMovil.Droid.Resource.Styleable.View;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.View_android_focusable = global::LletraMovil.Droid.Resource.Styleable.View_android_focusable;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.View_android_theme = global::LletraMovil.Droid.Resource.Styleable.View_android_theme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.View_paddingEnd = global::LletraMovil.Droid.Resource.Styleable.View_paddingEnd;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.View_paddingStart = global::LletraMovil.Droid.Resource.Styleable.View_paddingStart;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.View_theme = global::LletraMovil.Droid.Resource.Styleable.View_theme;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ViewBackgroundHelper = global::LletraMovil.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::LletraMovil.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LletraMovil.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LletraMovil.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ViewStubCompat = global::LletraMovil.Droid.Resource.Styleable.ViewStubCompat;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ViewStubCompat_android_id = global::LletraMovil.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LletraMovil.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::LeoJHarris.FormsPlugin.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::LletraMovil.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::LletraMovil.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::LletraMovil.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::LletraMovil.Droid.Resource.Attribute.font;
@@ -5796,665 +8033,683 @@ namespace LletraMovil.Droid
 			// aapt resource value: 0x7F070062
 			public const int design_snackbar_background = 2131165282;
 			
-			// aapt resource value: 0x7F070117
-			public const int icon_cliente = 2131165463;
+			// aapt resource value: 0x7F070063
+			public const int hide_password = 2131165283;
 			
 			// aapt resource value: 0x7F070118
-			public const int icon_operador = 2131165464;
-			
-			// aapt resource value: 0x7F070063
-			public const int ic_audiotrack_dark = 2131165283;
-			
-			// aapt resource value: 0x7F070064
-			public const int ic_audiotrack_light = 2131165284;
-			
-			// aapt resource value: 0x7F070065
-			public const int ic_dialog_close_dark = 2131165285;
-			
-			// aapt resource value: 0x7F070066
-			public const int ic_dialog_close_light = 2131165286;
-			
-			// aapt resource value: 0x7F070067
-			public const int ic_group_collapse_00 = 2131165287;
-			
-			// aapt resource value: 0x7F070068
-			public const int ic_group_collapse_01 = 2131165288;
-			
-			// aapt resource value: 0x7F070069
-			public const int ic_group_collapse_02 = 2131165289;
-			
-			// aapt resource value: 0x7F07006A
-			public const int ic_group_collapse_03 = 2131165290;
-			
-			// aapt resource value: 0x7F07006B
-			public const int ic_group_collapse_04 = 2131165291;
-			
-			// aapt resource value: 0x7F07006C
-			public const int ic_group_collapse_05 = 2131165292;
-			
-			// aapt resource value: 0x7F07006D
-			public const int ic_group_collapse_06 = 2131165293;
-			
-			// aapt resource value: 0x7F07006E
-			public const int ic_group_collapse_07 = 2131165294;
-			
-			// aapt resource value: 0x7F07006F
-			public const int ic_group_collapse_08 = 2131165295;
-			
-			// aapt resource value: 0x7F070070
-			public const int ic_group_collapse_09 = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int ic_group_collapse_10 = 2131165297;
-			
-			// aapt resource value: 0x7F070072
-			public const int ic_group_collapse_11 = 2131165298;
-			
-			// aapt resource value: 0x7F070073
-			public const int ic_group_collapse_12 = 2131165299;
-			
-			// aapt resource value: 0x7F070074
-			public const int ic_group_collapse_13 = 2131165300;
-			
-			// aapt resource value: 0x7F070075
-			public const int ic_group_collapse_14 = 2131165301;
-			
-			// aapt resource value: 0x7F070076
-			public const int ic_group_collapse_15 = 2131165302;
-			
-			// aapt resource value: 0x7F070077
-			public const int ic_group_expand_00 = 2131165303;
-			
-			// aapt resource value: 0x7F070078
-			public const int ic_group_expand_01 = 2131165304;
-			
-			// aapt resource value: 0x7F070079
-			public const int ic_group_expand_02 = 2131165305;
-			
-			// aapt resource value: 0x7F07007A
-			public const int ic_group_expand_03 = 2131165306;
-			
-			// aapt resource value: 0x7F07007B
-			public const int ic_group_expand_04 = 2131165307;
-			
-			// aapt resource value: 0x7F07007C
-			public const int ic_group_expand_05 = 2131165308;
-			
-			// aapt resource value: 0x7F07007D
-			public const int ic_group_expand_06 = 2131165309;
-			
-			// aapt resource value: 0x7F07007E
-			public const int ic_group_expand_07 = 2131165310;
-			
-			// aapt resource value: 0x7F07007F
-			public const int ic_group_expand_08 = 2131165311;
-			
-			// aapt resource value: 0x7F070080
-			public const int ic_group_expand_09 = 2131165312;
-			
-			// aapt resource value: 0x7F070081
-			public const int ic_group_expand_10 = 2131165313;
-			
-			// aapt resource value: 0x7F070082
-			public const int ic_group_expand_11 = 2131165314;
-			
-			// aapt resource value: 0x7F070083
-			public const int ic_group_expand_12 = 2131165315;
-			
-			// aapt resource value: 0x7F070084
-			public const int ic_group_expand_13 = 2131165316;
-			
-			// aapt resource value: 0x7F070085
-			public const int ic_group_expand_14 = 2131165317;
-			
-			// aapt resource value: 0x7F070086
-			public const int ic_group_expand_15 = 2131165318;
-			
-			// aapt resource value: 0x7F070087
-			public const int ic_media_pause_dark = 2131165319;
-			
-			// aapt resource value: 0x7F070088
-			public const int ic_media_pause_light = 2131165320;
-			
-			// aapt resource value: 0x7F070089
-			public const int ic_media_play_dark = 2131165321;
-			
-			// aapt resource value: 0x7F07008A
-			public const int ic_media_play_light = 2131165322;
-			
-			// aapt resource value: 0x7F07008B
-			public const int ic_media_stop_dark = 2131165323;
-			
-			// aapt resource value: 0x7F07008C
-			public const int ic_media_stop_light = 2131165324;
-			
-			// aapt resource value: 0x7F07008D
-			public const int ic_mr_button_connected_00_dark = 2131165325;
-			
-			// aapt resource value: 0x7F07008E
-			public const int ic_mr_button_connected_00_light = 2131165326;
-			
-			// aapt resource value: 0x7F07008F
-			public const int ic_mr_button_connected_01_dark = 2131165327;
-			
-			// aapt resource value: 0x7F070090
-			public const int ic_mr_button_connected_01_light = 2131165328;
-			
-			// aapt resource value: 0x7F070091
-			public const int ic_mr_button_connected_02_dark = 2131165329;
-			
-			// aapt resource value: 0x7F070092
-			public const int ic_mr_button_connected_02_light = 2131165330;
-			
-			// aapt resource value: 0x7F070093
-			public const int ic_mr_button_connected_03_dark = 2131165331;
-			
-			// aapt resource value: 0x7F070094
-			public const int ic_mr_button_connected_03_light = 2131165332;
-			
-			// aapt resource value: 0x7F070095
-			public const int ic_mr_button_connected_04_dark = 2131165333;
-			
-			// aapt resource value: 0x7F070096
-			public const int ic_mr_button_connected_04_light = 2131165334;
-			
-			// aapt resource value: 0x7F070097
-			public const int ic_mr_button_connected_05_dark = 2131165335;
-			
-			// aapt resource value: 0x7F070098
-			public const int ic_mr_button_connected_05_light = 2131165336;
-			
-			// aapt resource value: 0x7F070099
-			public const int ic_mr_button_connected_06_dark = 2131165337;
-			
-			// aapt resource value: 0x7F07009A
-			public const int ic_mr_button_connected_06_light = 2131165338;
-			
-			// aapt resource value: 0x7F07009B
-			public const int ic_mr_button_connected_07_dark = 2131165339;
-			
-			// aapt resource value: 0x7F07009C
-			public const int ic_mr_button_connected_07_light = 2131165340;
-			
-			// aapt resource value: 0x7F07009D
-			public const int ic_mr_button_connected_08_dark = 2131165341;
-			
-			// aapt resource value: 0x7F07009E
-			public const int ic_mr_button_connected_08_light = 2131165342;
-			
-			// aapt resource value: 0x7F07009F
-			public const int ic_mr_button_connected_09_dark = 2131165343;
-			
-			// aapt resource value: 0x7F0700A0
-			public const int ic_mr_button_connected_09_light = 2131165344;
-			
-			// aapt resource value: 0x7F0700A1
-			public const int ic_mr_button_connected_10_dark = 2131165345;
-			
-			// aapt resource value: 0x7F0700A2
-			public const int ic_mr_button_connected_10_light = 2131165346;
-			
-			// aapt resource value: 0x7F0700A3
-			public const int ic_mr_button_connected_11_dark = 2131165347;
-			
-			// aapt resource value: 0x7F0700A4
-			public const int ic_mr_button_connected_11_light = 2131165348;
-			
-			// aapt resource value: 0x7F0700A5
-			public const int ic_mr_button_connected_12_dark = 2131165349;
-			
-			// aapt resource value: 0x7F0700A6
-			public const int ic_mr_button_connected_12_light = 2131165350;
-			
-			// aapt resource value: 0x7F0700A7
-			public const int ic_mr_button_connected_13_dark = 2131165351;
-			
-			// aapt resource value: 0x7F0700A8
-			public const int ic_mr_button_connected_13_light = 2131165352;
-			
-			// aapt resource value: 0x7F0700A9
-			public const int ic_mr_button_connected_14_dark = 2131165353;
-			
-			// aapt resource value: 0x7F0700AA
-			public const int ic_mr_button_connected_14_light = 2131165354;
-			
-			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_15_dark = 2131165355;
-			
-			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_15_light = 2131165356;
-			
-			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_16_dark = 2131165357;
-			
-			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_16_light = 2131165358;
-			
-			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_17_dark = 2131165359;
-			
-			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_17_light = 2131165360;
-			
-			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_18_dark = 2131165361;
-			
-			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_18_light = 2131165362;
-			
-			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_19_dark = 2131165363;
-			
-			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_19_light = 2131165364;
-			
-			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_20_dark = 2131165365;
-			
-			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_20_light = 2131165366;
-			
-			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_21_dark = 2131165367;
-			
-			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_21_light = 2131165368;
-			
-			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_22_dark = 2131165369;
-			
-			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_22_light = 2131165370;
-			
-			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_23_dark = 2131165371;
-			
-			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_23_light = 2131165372;
-			
-			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_24_dark = 2131165373;
-			
-			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_24_light = 2131165374;
-			
-			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_25_dark = 2131165375;
-			
-			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_25_light = 2131165376;
-			
-			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_26_dark = 2131165377;
-			
-			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_26_light = 2131165378;
-			
-			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_27_dark = 2131165379;
-			
-			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_27_light = 2131165380;
-			
-			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_28_dark = 2131165381;
-			
-			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_28_light = 2131165382;
-			
-			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_29_dark = 2131165383;
-			
-			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_29_light = 2131165384;
-			
-			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_30_dark = 2131165385;
-			
-			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_30_light = 2131165386;
-			
-			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connecting_00_dark = 2131165387;
-			
-			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connecting_00_light = 2131165388;
-			
-			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connecting_01_dark = 2131165389;
-			
-			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connecting_01_light = 2131165390;
-			
-			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connecting_02_dark = 2131165391;
-			
-			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connecting_02_light = 2131165392;
-			
-			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connecting_03_dark = 2131165393;
-			
-			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connecting_03_light = 2131165394;
-			
-			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connecting_04_dark = 2131165395;
-			
-			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connecting_04_light = 2131165396;
-			
-			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connecting_05_dark = 2131165397;
-			
-			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connecting_05_light = 2131165398;
-			
-			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connecting_06_dark = 2131165399;
-			
-			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connecting_06_light = 2131165400;
-			
-			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connecting_07_dark = 2131165401;
-			
-			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connecting_07_light = 2131165402;
-			
-			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connecting_08_dark = 2131165403;
-			
-			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connecting_08_light = 2131165404;
-			
-			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connecting_09_dark = 2131165405;
-			
-			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connecting_09_light = 2131165406;
-			
-			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connecting_10_dark = 2131165407;
-			
-			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connecting_10_light = 2131165408;
-			
-			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connecting_11_dark = 2131165409;
-			
-			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connecting_11_light = 2131165410;
-			
-			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connecting_12_dark = 2131165411;
-			
-			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connecting_12_light = 2131165412;
-			
-			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connecting_13_dark = 2131165413;
-			
-			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connecting_13_light = 2131165414;
-			
-			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connecting_14_dark = 2131165415;
-			
-			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connecting_14_light = 2131165416;
-			
-			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_15_dark = 2131165417;
-			
-			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_15_light = 2131165418;
-			
-			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_16_dark = 2131165419;
-			
-			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_16_light = 2131165420;
-			
-			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_17_dark = 2131165421;
-			
-			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_17_light = 2131165422;
-			
-			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_18_dark = 2131165423;
-			
-			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_18_light = 2131165424;
-			
-			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_19_dark = 2131165425;
-			
-			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_19_light = 2131165426;
-			
-			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_20_dark = 2131165427;
-			
-			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_20_light = 2131165428;
-			
-			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_21_dark = 2131165429;
-			
-			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_21_light = 2131165430;
-			
-			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_22_dark = 2131165431;
-			
-			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_22_light = 2131165432;
-			
-			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_23_dark = 2131165433;
-			
-			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_23_light = 2131165434;
-			
-			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_24_dark = 2131165435;
-			
-			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_24_light = 2131165436;
-			
-			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_25_dark = 2131165437;
-			
-			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_25_light = 2131165438;
-			
-			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_26_dark = 2131165439;
-			
-			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_26_light = 2131165440;
-			
-			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_27_dark = 2131165441;
-			
-			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_27_light = 2131165442;
-			
-			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_28_dark = 2131165443;
-			
-			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_28_light = 2131165444;
-			
-			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_29_dark = 2131165445;
-			
-			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_29_light = 2131165446;
-			
-			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_30_dark = 2131165447;
-			
-			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_30_light = 2131165448;
-			
-			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_disabled_dark = 2131165449;
-			
-			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_disabled_light = 2131165450;
-			
-			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_disconnected_dark = 2131165451;
-			
-			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_disconnected_light = 2131165452;
-			
-			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_grey = 2131165453;
-			
-			// aapt resource value: 0x7F07010E
-			public const int ic_mtrl_chip_checked_black = 2131165454;
-			
-			// aapt resource value: 0x7F07010F
-			public const int ic_mtrl_chip_checked_circle = 2131165455;
-			
-			// aapt resource value: 0x7F070110
-			public const int ic_mtrl_chip_close_circle = 2131165456;
-			
-			// aapt resource value: 0x7F070111
-			public const int ic_vol_type_speaker_dark = 2131165457;
-			
-			// aapt resource value: 0x7F070112
-			public const int ic_vol_type_speaker_group_dark = 2131165458;
-			
-			// aapt resource value: 0x7F070113
-			public const int ic_vol_type_speaker_group_light = 2131165459;
-			
-			// aapt resource value: 0x7F070114
-			public const int ic_vol_type_speaker_light = 2131165460;
-			
-			// aapt resource value: 0x7F070115
-			public const int ic_vol_type_tv_dark = 2131165461;
-			
-			// aapt resource value: 0x7F070116
-			public const int ic_vol_type_tv_light = 2131165462;
+			public const int icon_cliente = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int lletra_logo_sin_descripcion_blanco = 2131165465;
+			public const int icon_operador = 2131165465;
+			
+			// aapt resource value: 0x7F070064
+			public const int ic_audiotrack_dark = 2131165284;
+			
+			// aapt resource value: 0x7F070065
+			public const int ic_audiotrack_light = 2131165285;
+			
+			// aapt resource value: 0x7F070066
+			public const int ic_dialog_close_dark = 2131165286;
+			
+			// aapt resource value: 0x7F070067
+			public const int ic_dialog_close_light = 2131165287;
+			
+			// aapt resource value: 0x7F070068
+			public const int ic_group_collapse_00 = 2131165288;
+			
+			// aapt resource value: 0x7F070069
+			public const int ic_group_collapse_01 = 2131165289;
+			
+			// aapt resource value: 0x7F07006A
+			public const int ic_group_collapse_02 = 2131165290;
+			
+			// aapt resource value: 0x7F07006B
+			public const int ic_group_collapse_03 = 2131165291;
+			
+			// aapt resource value: 0x7F07006C
+			public const int ic_group_collapse_04 = 2131165292;
+			
+			// aapt resource value: 0x7F07006D
+			public const int ic_group_collapse_05 = 2131165293;
+			
+			// aapt resource value: 0x7F07006E
+			public const int ic_group_collapse_06 = 2131165294;
+			
+			// aapt resource value: 0x7F07006F
+			public const int ic_group_collapse_07 = 2131165295;
+			
+			// aapt resource value: 0x7F070070
+			public const int ic_group_collapse_08 = 2131165296;
+			
+			// aapt resource value: 0x7F070071
+			public const int ic_group_collapse_09 = 2131165297;
+			
+			// aapt resource value: 0x7F070072
+			public const int ic_group_collapse_10 = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int ic_group_collapse_11 = 2131165299;
+			
+			// aapt resource value: 0x7F070074
+			public const int ic_group_collapse_12 = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int ic_group_collapse_13 = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int ic_group_collapse_14 = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int ic_group_collapse_15 = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int ic_group_expand_00 = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int ic_group_expand_01 = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int ic_group_expand_02 = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int ic_group_expand_03 = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int ic_group_expand_04 = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int ic_group_expand_05 = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int ic_group_expand_06 = 2131165310;
+			
+			// aapt resource value: 0x7F07007F
+			public const int ic_group_expand_07 = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int ic_group_expand_08 = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int ic_group_expand_09 = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int ic_group_expand_10 = 2131165314;
+			
+			// aapt resource value: 0x7F070083
+			public const int ic_group_expand_11 = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int ic_group_expand_12 = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int ic_group_expand_13 = 2131165317;
+			
+			// aapt resource value: 0x7F070086
+			public const int ic_group_expand_14 = 2131165318;
+			
+			// aapt resource value: 0x7F070087
+			public const int ic_group_expand_15 = 2131165319;
+			
+			// aapt resource value: 0x7F070088
+			public const int ic_media_pause_dark = 2131165320;
+			
+			// aapt resource value: 0x7F070089
+			public const int ic_media_pause_light = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int ic_media_play_dark = 2131165322;
+			
+			// aapt resource value: 0x7F07008B
+			public const int ic_media_play_light = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int ic_media_stop_dark = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int ic_media_stop_light = 2131165325;
+			
+			// aapt resource value: 0x7F07008E
+			public const int ic_mr_button_connected_00_dark = 2131165326;
+			
+			// aapt resource value: 0x7F07008F
+			public const int ic_mr_button_connected_00_light = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int ic_mr_button_connected_01_dark = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int ic_mr_button_connected_01_light = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int ic_mr_button_connected_02_dark = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int ic_mr_button_connected_02_light = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int ic_mr_button_connected_03_dark = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int ic_mr_button_connected_03_light = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int ic_mr_button_connected_04_dark = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int ic_mr_button_connected_04_light = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int ic_mr_button_connected_05_dark = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int ic_mr_button_connected_05_light = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int ic_mr_button_connected_06_dark = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int ic_mr_button_connected_06_light = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int ic_mr_button_connected_07_dark = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int ic_mr_button_connected_07_light = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int ic_mr_button_connected_08_dark = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int ic_mr_button_connected_08_light = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int ic_mr_button_connected_09_dark = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int ic_mr_button_connected_09_light = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int ic_mr_button_connected_10_dark = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int ic_mr_button_connected_10_light = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int ic_mr_button_connected_11_dark = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int ic_mr_button_connected_11_light = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int ic_mr_button_connected_12_dark = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int ic_mr_button_connected_12_light = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int ic_mr_button_connected_13_dark = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int ic_mr_button_connected_13_light = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int ic_mr_button_connected_14_dark = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int ic_mr_button_connected_14_light = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int ic_mr_button_connected_15_dark = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int ic_mr_button_connected_15_light = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int ic_mr_button_connected_16_dark = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int ic_mr_button_connected_16_light = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int ic_mr_button_connected_17_dark = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int ic_mr_button_connected_17_light = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int ic_mr_button_connected_18_dark = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int ic_mr_button_connected_18_light = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int ic_mr_button_connected_19_dark = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int ic_mr_button_connected_19_light = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int ic_mr_button_connected_20_dark = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int ic_mr_button_connected_20_light = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int ic_mr_button_connected_21_dark = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int ic_mr_button_connected_21_light = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int ic_mr_button_connected_22_dark = 2131165370;
+			
+			// aapt resource value: 0x7F0700BB
+			public const int ic_mr_button_connected_22_light = 2131165371;
+			
+			// aapt resource value: 0x7F0700BC
+			public const int ic_mr_button_connected_23_dark = 2131165372;
+			
+			// aapt resource value: 0x7F0700BD
+			public const int ic_mr_button_connected_23_light = 2131165373;
+			
+			// aapt resource value: 0x7F0700BE
+			public const int ic_mr_button_connected_24_dark = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int ic_mr_button_connected_24_light = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int ic_mr_button_connected_25_dark = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int ic_mr_button_connected_25_light = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int ic_mr_button_connected_26_dark = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int ic_mr_button_connected_26_light = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int ic_mr_button_connected_27_dark = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int ic_mr_button_connected_27_light = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int ic_mr_button_connected_28_dark = 2131165382;
+			
+			// aapt resource value: 0x7F0700C7
+			public const int ic_mr_button_connected_28_light = 2131165383;
+			
+			// aapt resource value: 0x7F0700C8
+			public const int ic_mr_button_connected_29_dark = 2131165384;
+			
+			// aapt resource value: 0x7F0700C9
+			public const int ic_mr_button_connected_29_light = 2131165385;
+			
+			// aapt resource value: 0x7F0700CA
+			public const int ic_mr_button_connected_30_dark = 2131165386;
+			
+			// aapt resource value: 0x7F0700CB
+			public const int ic_mr_button_connected_30_light = 2131165387;
+			
+			// aapt resource value: 0x7F0700CC
+			public const int ic_mr_button_connecting_00_dark = 2131165388;
+			
+			// aapt resource value: 0x7F0700CD
+			public const int ic_mr_button_connecting_00_light = 2131165389;
+			
+			// aapt resource value: 0x7F0700CE
+			public const int ic_mr_button_connecting_01_dark = 2131165390;
+			
+			// aapt resource value: 0x7F0700CF
+			public const int ic_mr_button_connecting_01_light = 2131165391;
+			
+			// aapt resource value: 0x7F0700D0
+			public const int ic_mr_button_connecting_02_dark = 2131165392;
+			
+			// aapt resource value: 0x7F0700D1
+			public const int ic_mr_button_connecting_02_light = 2131165393;
+			
+			// aapt resource value: 0x7F0700D2
+			public const int ic_mr_button_connecting_03_dark = 2131165394;
+			
+			// aapt resource value: 0x7F0700D3
+			public const int ic_mr_button_connecting_03_light = 2131165395;
+			
+			// aapt resource value: 0x7F0700D4
+			public const int ic_mr_button_connecting_04_dark = 2131165396;
+			
+			// aapt resource value: 0x7F0700D5
+			public const int ic_mr_button_connecting_04_light = 2131165397;
+			
+			// aapt resource value: 0x7F0700D6
+			public const int ic_mr_button_connecting_05_dark = 2131165398;
+			
+			// aapt resource value: 0x7F0700D7
+			public const int ic_mr_button_connecting_05_light = 2131165399;
+			
+			// aapt resource value: 0x7F0700D8
+			public const int ic_mr_button_connecting_06_dark = 2131165400;
+			
+			// aapt resource value: 0x7F0700D9
+			public const int ic_mr_button_connecting_06_light = 2131165401;
+			
+			// aapt resource value: 0x7F0700DA
+			public const int ic_mr_button_connecting_07_dark = 2131165402;
+			
+			// aapt resource value: 0x7F0700DB
+			public const int ic_mr_button_connecting_07_light = 2131165403;
+			
+			// aapt resource value: 0x7F0700DC
+			public const int ic_mr_button_connecting_08_dark = 2131165404;
+			
+			// aapt resource value: 0x7F0700DD
+			public const int ic_mr_button_connecting_08_light = 2131165405;
+			
+			// aapt resource value: 0x7F0700DE
+			public const int ic_mr_button_connecting_09_dark = 2131165406;
+			
+			// aapt resource value: 0x7F0700DF
+			public const int ic_mr_button_connecting_09_light = 2131165407;
+			
+			// aapt resource value: 0x7F0700E0
+			public const int ic_mr_button_connecting_10_dark = 2131165408;
+			
+			// aapt resource value: 0x7F0700E1
+			public const int ic_mr_button_connecting_10_light = 2131165409;
+			
+			// aapt resource value: 0x7F0700E2
+			public const int ic_mr_button_connecting_11_dark = 2131165410;
+			
+			// aapt resource value: 0x7F0700E3
+			public const int ic_mr_button_connecting_11_light = 2131165411;
+			
+			// aapt resource value: 0x7F0700E4
+			public const int ic_mr_button_connecting_12_dark = 2131165412;
+			
+			// aapt resource value: 0x7F0700E5
+			public const int ic_mr_button_connecting_12_light = 2131165413;
+			
+			// aapt resource value: 0x7F0700E6
+			public const int ic_mr_button_connecting_13_dark = 2131165414;
+			
+			// aapt resource value: 0x7F0700E7
+			public const int ic_mr_button_connecting_13_light = 2131165415;
+			
+			// aapt resource value: 0x7F0700E8
+			public const int ic_mr_button_connecting_14_dark = 2131165416;
+			
+			// aapt resource value: 0x7F0700E9
+			public const int ic_mr_button_connecting_14_light = 2131165417;
+			
+			// aapt resource value: 0x7F0700EA
+			public const int ic_mr_button_connecting_15_dark = 2131165418;
+			
+			// aapt resource value: 0x7F0700EB
+			public const int ic_mr_button_connecting_15_light = 2131165419;
+			
+			// aapt resource value: 0x7F0700EC
+			public const int ic_mr_button_connecting_16_dark = 2131165420;
+			
+			// aapt resource value: 0x7F0700ED
+			public const int ic_mr_button_connecting_16_light = 2131165421;
+			
+			// aapt resource value: 0x7F0700EE
+			public const int ic_mr_button_connecting_17_dark = 2131165422;
+			
+			// aapt resource value: 0x7F0700EF
+			public const int ic_mr_button_connecting_17_light = 2131165423;
+			
+			// aapt resource value: 0x7F0700F0
+			public const int ic_mr_button_connecting_18_dark = 2131165424;
+			
+			// aapt resource value: 0x7F0700F1
+			public const int ic_mr_button_connecting_18_light = 2131165425;
+			
+			// aapt resource value: 0x7F0700F2
+			public const int ic_mr_button_connecting_19_dark = 2131165426;
+			
+			// aapt resource value: 0x7F0700F3
+			public const int ic_mr_button_connecting_19_light = 2131165427;
+			
+			// aapt resource value: 0x7F0700F4
+			public const int ic_mr_button_connecting_20_dark = 2131165428;
+			
+			// aapt resource value: 0x7F0700F5
+			public const int ic_mr_button_connecting_20_light = 2131165429;
+			
+			// aapt resource value: 0x7F0700F6
+			public const int ic_mr_button_connecting_21_dark = 2131165430;
+			
+			// aapt resource value: 0x7F0700F7
+			public const int ic_mr_button_connecting_21_light = 2131165431;
+			
+			// aapt resource value: 0x7F0700F8
+			public const int ic_mr_button_connecting_22_dark = 2131165432;
+			
+			// aapt resource value: 0x7F0700F9
+			public const int ic_mr_button_connecting_22_light = 2131165433;
+			
+			// aapt resource value: 0x7F0700FA
+			public const int ic_mr_button_connecting_23_dark = 2131165434;
+			
+			// aapt resource value: 0x7F0700FB
+			public const int ic_mr_button_connecting_23_light = 2131165435;
+			
+			// aapt resource value: 0x7F0700FC
+			public const int ic_mr_button_connecting_24_dark = 2131165436;
+			
+			// aapt resource value: 0x7F0700FD
+			public const int ic_mr_button_connecting_24_light = 2131165437;
+			
+			// aapt resource value: 0x7F0700FE
+			public const int ic_mr_button_connecting_25_dark = 2131165438;
+			
+			// aapt resource value: 0x7F0700FF
+			public const int ic_mr_button_connecting_25_light = 2131165439;
+			
+			// aapt resource value: 0x7F070100
+			public const int ic_mr_button_connecting_26_dark = 2131165440;
+			
+			// aapt resource value: 0x7F070101
+			public const int ic_mr_button_connecting_26_light = 2131165441;
+			
+			// aapt resource value: 0x7F070102
+			public const int ic_mr_button_connecting_27_dark = 2131165442;
+			
+			// aapt resource value: 0x7F070103
+			public const int ic_mr_button_connecting_27_light = 2131165443;
+			
+			// aapt resource value: 0x7F070104
+			public const int ic_mr_button_connecting_28_dark = 2131165444;
+			
+			// aapt resource value: 0x7F070105
+			public const int ic_mr_button_connecting_28_light = 2131165445;
+			
+			// aapt resource value: 0x7F070106
+			public const int ic_mr_button_connecting_29_dark = 2131165446;
+			
+			// aapt resource value: 0x7F070107
+			public const int ic_mr_button_connecting_29_light = 2131165447;
+			
+			// aapt resource value: 0x7F070108
+			public const int ic_mr_button_connecting_30_dark = 2131165448;
+			
+			// aapt resource value: 0x7F070109
+			public const int ic_mr_button_connecting_30_light = 2131165449;
+			
+			// aapt resource value: 0x7F07010A
+			public const int ic_mr_button_disabled_dark = 2131165450;
+			
+			// aapt resource value: 0x7F07010B
+			public const int ic_mr_button_disabled_light = 2131165451;
+			
+			// aapt resource value: 0x7F07010C
+			public const int ic_mr_button_disconnected_dark = 2131165452;
+			
+			// aapt resource value: 0x7F07010D
+			public const int ic_mr_button_disconnected_light = 2131165453;
+			
+			// aapt resource value: 0x7F07010E
+			public const int ic_mr_button_grey = 2131165454;
+			
+			// aapt resource value: 0x7F07010F
+			public const int ic_mtrl_chip_checked_black = 2131165455;
+			
+			// aapt resource value: 0x7F070110
+			public const int ic_mtrl_chip_checked_circle = 2131165456;
+			
+			// aapt resource value: 0x7F070111
+			public const int ic_mtrl_chip_close_circle = 2131165457;
+			
+			// aapt resource value: 0x7F070112
+			public const int ic_vol_type_speaker_dark = 2131165458;
+			
+			// aapt resource value: 0x7F070113
+			public const int ic_vol_type_speaker_group_dark = 2131165459;
+			
+			// aapt resource value: 0x7F070114
+			public const int ic_vol_type_speaker_group_light = 2131165460;
+			
+			// aapt resource value: 0x7F070115
+			public const int ic_vol_type_speaker_light = 2131165461;
+			
+			// aapt resource value: 0x7F070116
+			public const int ic_vol_type_tv_dark = 2131165462;
+			
+			// aapt resource value: 0x7F070117
+			public const int ic_vol_type_tv_light = 2131165463;
 			
 			// aapt resource value: 0x7F07011A
-			public const int mr_button_connected_dark = 2131165466;
+			public const int left_arrow = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int mr_button_connected_light = 2131165467;
+			public const int lletra_logitpo = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int mr_button_connecting_dark = 2131165468;
+			public const int lletra_logo_sin_descripcion_blanco = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int mr_button_connecting_light = 2131165469;
+			public const int mr_button_connected_dark = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int mr_button_dark = 2131165470;
+			public const int mr_button_connected_light = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int mr_button_light = 2131165471;
+			public const int mr_button_connecting_dark = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int mr_dialog_close_dark = 2131165472;
+			public const int mr_button_connecting_light = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int mr_dialog_close_light = 2131165473;
+			public const int mr_button_dark = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int mr_dialog_material_background_dark = 2131165474;
+			public const int mr_button_light = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int mr_dialog_material_background_light = 2131165475;
+			public const int mr_dialog_close_dark = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int mr_group_collapse = 2131165476;
+			public const int mr_dialog_close_light = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int mr_group_expand = 2131165477;
+			public const int mr_dialog_material_background_dark = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int mr_media_pause_dark = 2131165478;
+			public const int mr_dialog_material_background_light = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int mr_media_pause_light = 2131165479;
+			public const int mr_group_collapse = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int mr_media_play_dark = 2131165480;
+			public const int mr_group_expand = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int mr_media_play_light = 2131165481;
+			public const int mr_media_pause_dark = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int mr_media_stop_dark = 2131165482;
+			public const int mr_media_pause_light = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int mr_media_stop_light = 2131165483;
+			public const int mr_media_play_dark = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int mr_vol_type_audiotrack_dark = 2131165484;
+			public const int mr_media_play_light = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int mr_vol_type_audiotrack_light = 2131165485;
+			public const int mr_media_stop_dark = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int mtrl_snackbar_background = 2131165486;
+			public const int mr_media_stop_light = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int mtrl_tabs_default_indicator = 2131165487;
+			public const int mr_vol_type_audiotrack_dark = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int navigation_empty_icon = 2131165488;
+			public const int mr_vol_type_audiotrack_light = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int notification_action_background = 2131165489;
+			public const int mtrl_snackbar_background = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int notification_bg = 2131165490;
+			public const int mtrl_tabs_default_indicator = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int notification_bg_low = 2131165491;
+			public const int navigation_empty_icon = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int notification_bg_low_normal = 2131165492;
+			public const int notification_action_background = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int notification_bg_low_pressed = 2131165493;
+			public const int notification_bg = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int notification_bg_normal = 2131165494;
+			public const int notification_bg_low = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int notification_bg_normal_pressed = 2131165495;
+			public const int notification_bg_low_normal = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int notification_icon_background = 2131165496;
+			public const int notification_bg_low_pressed = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int notification_template_icon_bg = 2131165497;
+			public const int notification_bg_normal = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int notification_template_icon_low_bg = 2131165498;
+			public const int notification_bg_normal_pressed = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int notification_tile_bg = 2131165499;
+			public const int notification_icon_background = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int notify_panel_notification_icon_bg = 2131165500;
+			public const int notification_template_icon_bg = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int tooltip_frame_dark = 2131165501;
+			public const int notification_template_icon_low_bg = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int tooltip_frame_light = 2131165502;
+			public const int notification_tile_bg = 2131165502;
+			
+			// aapt resource value: 0x7F07013F
+			public const int notify_panel_notification_icon_bg = 2131165503;
+			
+			// aapt resource value: 0x7F070140
+			public const int password = 2131165504;
+			
+			// aapt resource value: 0x7F070141
+			public const int show_password = 2131165505;
+			
+			// aapt resource value: 0x7F070142
+			public const int tooltip_frame_dark = 2131165506;
+			
+			// aapt resource value: 0x7F070143
+			public const int tooltip_frame_light = 2131165507;
+			
+			// aapt resource value: 0x7F070144
+			public const int user = 2131165508;
 			
 			static Drawable()
 			{

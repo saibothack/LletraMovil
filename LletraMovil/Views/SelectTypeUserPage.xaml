@@ -21,11 +21,11 @@
                            VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" TextColor="White"/>
                 </StackLayout>
                 <StackLayout Grid.Row="1" Grid.Column="0" Margin="0,0,0,20">
-                    <ImageButton Source="icon_cliente.png" WidthRequest="150" Command="{Binding CmdUsuario}"/>
+                    <ImageButton Source="icon_cliente.png" WidthRequest="150" Command="{Binding CmdUsuario}" BackgroundColor="Transparent"/>
                     <Label Text="Cliente" FontSize="Subtitle" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="White" />
                 </StackLayout>
                 <StackLayout Grid.Row="2" Grid.Column="0" Margin="0,0,0,20">
-                    <ImageButton Source="icon_operador.png" WidthRequest="150" Command="{Binding CmdOperador}"/>
+                    <ImageButton Source="icon_operador.png" WidthRequest="150" Command="{Binding CmdOperador}" BackgroundColor="Transparent"/>
                     <Label Text="Operador" FontSize="Subtitle" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="White"   />
                     
                 </StackLayout>
