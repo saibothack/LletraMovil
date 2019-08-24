@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:abstractions="clr-namespace:LeoJHarris.FormsPlugin.Abstractions;assembly=LeoJHarris.FormsPlugin.Abstractions"
+             mc:Ignorable="d"
+             x:Class="LletraMovil.Views.Customers.RegisterPage" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="150" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image Source="background.png" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
+
+                <StackLayout Grid.Row="0" Grid.Column="0" Margin="20,0,0,0">
+                    <StackLayout WidthRequest="50" HorizontalOptions="Start">
+                        <ImageButton Source="left_arrow.png" BackgroundColor="Transparent" Margin="10" Command="{Binding CmdRegresar}"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                    </StackLayout>
+                    <StackLayout WidthRequest="50" HorizontalOptions="End">
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1" Grid.Column="0">
+                    <Image Source="icon_cliente.png" Margin="10" WidthRequest="150"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="2" Grid.Column="0" Orientation="Vertical">
+                    <Frame BackgroundColor="White" Margin="20"  CornerRadius="25" VerticalOptions="FillAndExpand">
+                        <StackLayout Orientation="Vertical" Margin="0,0,0,20">
+                            <StackLayout>
+                                <abstractions:EnhancedEntry LeftIcon="user" Placeholder="Nombre" FontSize="Title"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <abstractions:EnhancedEntry LeftIcon="envelope" Placeholder="Correo electrónico" FontSize="Title"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <abstractions:EnhancedEntry LeftIcon="padlock" Placeholder="Contraseña" FontSize="Title"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <abstractions:EnhancedEntry LeftIcon="password" Placeholder="Confirmar" FontSize="Title"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <abstractions:EnhancedEntry LeftIcon="phone" Placeholder="Teléfono" FontSize="Title"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout HorizontalOptions="Start" WidthRequest="50">
+                            <Switch IsToggled="False" OnColor="Gray"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="FillAndExpand">
+                            <Label Text="Acepto terminos y condiciones" FontSize="Subtitle" HorizontalOptions="FillAndExpand" TextColor="White" />
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                        <Button Text="Registrarme" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" WidthRequest="200" Margin="20" BackgroundColor="Blue" TextColor="White"/>
+                    </StackLayout>
+                    
+                    <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="White"/>
+                    
+                    <StackLayout HorizontalOptions="FillAndExpand" Margin="20">
+                        <Label Text="¿Ya tienes una cuenta?" FontSize="Subtitle" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="White" />
+                        <Button Text="Inicia sesión" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" WidthRequest="200" Command="{Binding CmdRegistrar}"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

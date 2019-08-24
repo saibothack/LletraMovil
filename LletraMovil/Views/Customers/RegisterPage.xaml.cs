@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace LletraMovil.Views
+namespace LletraMovil.Views.Customers
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegisterPage : ContentPage
