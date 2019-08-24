@@ -10,7 +10,7 @@ namespace LletraMovil.ViewModels
 
         public IntroPageViewModels()
         {
-            //goToTutorial();
+            goToTutorial();
         }
 
         public async void goToTutorial()

@@ -134,6 +134,8 @@
     <BundleResource Include="Resources\lletra_logo_sin_descripcion_blanco.png" />
     <BundleResource Include="Resources\icon_operador.png" />
     <BundleResource Include="Resources\icon_cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
     <BundleResource Include="Resources\background.png" />
   </ItemGroup>
 </Project>

@@ -10,9 +10,9 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>   
 
-            <Image Source="background.png" BackgroundColor="red" Grid.Column="0" Grid.Row="0"/>
+            <Image Source="background.png" Grid.Column="0" Grid.Row="0" Aspect="AspectFill"/>
 
-            <Image Source="background.png" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="200"/>
+            <Image Source="lletra_logo_sin_descripcion_blanco.png" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="200"/>
 
         </Grid>
     </ContentPage.Content>
