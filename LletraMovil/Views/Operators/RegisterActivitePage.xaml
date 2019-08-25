@@ -42,7 +42,7 @@
                         <StackLayout Orientation="Vertical" Margin="0,0,0,20">
                             <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" HeightRequest="80">
                                 <StackLayout HorizontalOptions="Start" WidthRequest="50" VerticalOptions="FillAndExpand">
-                                    <Switch IsToggled="False" OnColor="Gray" VerticalOptions="CenterAndExpand"/>    
+                                    <Switch IsToggled="False" OnColor="Gray" VerticalOptions="CenterAndExpand" Toggled="Switch_Toggled" x:Name="PFisica"/>
                                 </StackLayout>
                                 <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                                     <Label Text="Persona fisica" FontSize="Subtitle" HorizontalOptions="FillAndExpand" 
@@ -54,7 +54,7 @@
 
                             <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal" HeightRequest="80">
                                 <StackLayout HorizontalOptions="Start" WidthRequest="50" VerticalOptions="FillAndExpand">
-                                    <Switch IsToggled="False" OnColor="Gray" VerticalOptions="CenterAndExpand"/>
+                                    <Switch IsToggled="False" OnColor="Gray" VerticalOptions="CenterAndExpand" Toggled="Switch_Toggled_1" x:Name="PMoral"/>
                                 </StackLayout>
                                 <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                                     <Label Text="Persona moral" FontSize="Subtitle" HorizontalOptions="FillAndExpand" 
@@ -76,7 +76,7 @@
                     <StackLayout HorizontalOptions="FillAndExpand">
                         <Button Text="Continuar" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" WidthRequest="200" 
                                 Margin="20" BackgroundColor="LightBlue" 
-                                TextColor="White" Command="{Binding CmdRegistrar}"/>
+                                TextColor="White" Clicked="Button_Clicked"/>
                     </StackLayout>
 
                 </StackLayout>

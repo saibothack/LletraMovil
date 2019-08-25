@@ -21,6 +21,7 @@ namespace LletraMovil.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            //CardsViewRenderer.Preserve();
             LeoJHarris.FormsPlugin.Droid.EnhancedEntryRenderer.Init(this);
             LoadApplication(new App());
         }
