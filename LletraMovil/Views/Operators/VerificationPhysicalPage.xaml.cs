@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace LletraMovil.Views.Operators
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class VerificacionPage : ContentPage
+    public partial class VerificationPhysicalPage : ContentPage
     {
-        public VerificacionPage()
+        public VerificationPhysicalPage()
         {
             InitializeComponent();
         }
