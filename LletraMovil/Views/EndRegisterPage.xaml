@@ -4,12 +4,46 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="LletraMovil.Views.EndRegisterPage">
+             x:Class="LletraMovil.Views.EndRegisterPage"  NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image Source="background.png" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
+                <StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="0">
+                        <Label Text="Registro exitoso" FontSize="Title" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" 
+                               TextColor="White" Margin="0,30,0,0"  />
+                    </StackLayout>
+                    
+                    <StackLayout Grid.Row="1" Grid.Column="0">
+                        <Image Source="icon_cliente.png" Margin="10" WidthRequest="150"/>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                        <Label Text="¡Listo!" FontSize="Subtitle" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="White" />
+                        <Label Text="Gracias por unirte a LLETRA" FontSize="Subtitle" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" 
+                               TextColor="White" />
+                        <Label Text="Entra para poder solicitar el servicio" FontSize="Subtitle" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" TextColor="White" />
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                        <Button Text="Entrar" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" WidthRequest="200" 
+                                Margin="20" BackgroundColor="White" 
+                                TextColor="{DynamicResource PrimaryBlue}"/>
+                    </StackLayout>
+                </StackLayout>
+                </Grid>
+            </ScrollView>
     </ContentPage.Content>
 </ContentPage>
