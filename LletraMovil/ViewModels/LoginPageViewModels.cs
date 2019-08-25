@@ -1,5 +1,6 @@
 ﻿using LletraMovil.Views;
 using LletraMovil.Views.Customers;
+using LletraMovil.Views.Operators;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -31,7 +32,16 @@ namespace LletraMovil.ViewModels
 
         void Registrar()
         {
-            Application.Current.MainPage = new NavigationPage(new RegisterPage());
+            var typeUser = Preferences.Get("TypeUser", 0);
+
+            if (typeUser == 1)
+            {
+                Application.Current.MainPage = new NavigationPage(new RegisterPage());
+            }
+            else
+            {
+                Application.Current.MainPage = new NavigationPage(new RegisterActivitePage());
+            }
         }
 
         void Recuperar()
