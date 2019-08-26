@@ -4,6 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:abstractions="clr-namespace:LeoJHarris.FormsPlugin.Abstractions;assembly=LeoJHarris.FormsPlugin.Abstractions"
+             xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
              mc:Ignorable="d"
              x:Class="LletraMovil.Views.Operators.VerificationPhysicalPage"  NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
@@ -31,42 +33,122 @@
                     </StackLayout>
                 </StackLayout>
 
-                <StackLayout Grid.Row="1" Grid.Column="0" VerticalOptions="FillAndExpand">
-                    <Frame BackgroundColor="White" Margin="20"  CornerRadius="25" VerticalOptions="FillAndExpand">
-                        <StackLayout Orientation="Vertical" Margin="0,0,0,20">
-                            <StackLayout>
-                                <Label Text="Verificación" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
-                            </StackLayout>
-                            <StackLayout>
-                                <abstractions:EnhancedEntry LeftIcon="id_card" Placeholder="RFC" FontSize="Title"/>
-                            </StackLayout>
+                <cards:CarouselView SelectedIndex="0" Grid.Row="1" Grid.Column="0">
+                    <cards:CarouselView.ItemsSource>
+                        <x:Array Type="{x:Type View}">
+                            <ContentView Margin="0, 0, 0, 50">
+                                <Frame BackgroundColor="White" Margin="20"  CornerRadius="25">
+                                    <StackLayout Orientation="Vertical" Margin="0,0,0,20">
+                                        <StackLayout>
+                                            <Label Text="Verificación" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
+                                        </StackLayout>
 
-                            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
-                            
-                            <StackLayout>
-                                <abstractions:EnhancedEntry LeftIcon="little_home" Placeholder="Domicilio fiscal" FontSize="Title"/>
-                            </StackLayout>
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
-                            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
-                            
-                            <StackLayout>
-                                <abstractions:EnhancedEntry LeftIcon="credit_card" Placeholder="Cuenta bancaria" FontSize="Title"/>
-                            </StackLayout>
+                                        <StackLayout>
+                                            <Label x:Name="lblRFC" Text="RFC" FontSize="Medium" IsVisible="False"/>
+                                            <abstractions:EnhancedEntry x:Name="txtRFC" LeftIcon="id_card" Placeholder="RFC" FontSize="Subtitle"/>
+                                        </StackLayout>
 
-                            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
-                            
-                            <StackLayout>
-                                <abstractions:EnhancedEntry LeftIcon="id" Placeholder="INE" FontSize="Title"/>
-                            </StackLayout>
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
-                            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="little_home" Placeholder="Domicilio fiscal" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="credit_card" Placeholder="Cuenta bancaria" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="id" Placeholder="INE" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                    </StackLayout>
+                                </Frame>
+                            </ContentView>
+                            <ContentView Margin="0, 0, 0, 50">
+                                <Frame BackgroundColor="White" Margin="20"  CornerRadius="25" >
+                                    <StackLayout Orientation="Vertical" Margin="0,0,0,20">
+                                        <StackLayout>
+                                            <Label Text="Domicilio fiscal" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="boxes" Placeholder="C.P." FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="map_location" Placeholder="Calle" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="map_location" Placeholder="Colonia" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="hashtag" Placeholder="No. Exterior" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="hashtag" Placeholder="No. Interior" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="address" Placeholder="Estado" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="address" Placeholder="Municipio" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout Margin="0,20,0,0">
+                                            <Button Text="Agregar" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" 
+                                        WidthRequest="200" Command="{Binding CmdRegistrar}" BackgroundColor="{DynamicResource PrimaryBlue}" TextColor="White"/>
+                                        </StackLayout>
+                                        
+                                        <StackLayout>
+                                            <Picker >
+
+                                            </Picker>
+                                        </StackLayout>
+
+                                        <StackLayout>
+                                            <Picker >
+
+                                            </Picker>
+                                        </StackLayout>
 
 
-
-                        </StackLayout>
-                    </Frame>
-                </StackLayout>
-
+                                    </StackLayout>
+                                </Frame>
+                            </ContentView>
+                        </x:Array>
+                    </cards:CarouselView.ItemsSource>
+                    <controls:IndicatorsControl/>
+                </cards:CarouselView>
             </Grid>
         </ScrollView>
     </ContentPage.Content>

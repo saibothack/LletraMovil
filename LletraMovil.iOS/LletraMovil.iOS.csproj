@@ -180,4 +180,22 @@
   <ItemGroup>
     <BundleResource Include="Resources\passport.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\boxes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\map_location.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hashtag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\address.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bank.png" />
+  </ItemGroup>
 </Project>

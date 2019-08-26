@@ -3,13 +3,175 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             xmlns:abstractions="clr-namespace:LeoJHarris.FormsPlugin.Abstractions;assembly=LeoJHarris.FormsPlugin.Abstractions"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
              mc:Ignorable="d"
-             x:Class="LletraMovil.Views.Operators.Physical.CardVerificationPage">
+             x:Class="LletraMovil.Views.Operators.Physical.CardVerificationPage"  NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image Source="background.png" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
+
+                <StackLayout Grid.Row="0" Grid.Column="0" Margin="20,0,0,0">
+                    <StackLayout WidthRequest="50" HorizontalOptions="Start">
+                        <ImageButton Source="left_arrow.png" BackgroundColor="Transparent" Margin="10" Command="{Binding CmdRegresar}"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="FillAndExpand">
+                    </StackLayout>
+                    <StackLayout WidthRequest="50" HorizontalOptions="End">
+                    </StackLayout>
+                </StackLayout>
+
+                <cards:CarouselView SelectedIndex="0" Grid.Row="1" Grid.Column="0">
+                    <cards:CarouselView.ItemsSource>
+                        <x:Array Type="{x:Type View}">
+                            <ContentView Margin="0, 0, 0, 50">
+                                <Frame BackgroundColor="White" Margin="20"  CornerRadius="25">
+                                    <StackLayout Orientation="Vertical" Margin="0,0,0,20">
+                                        <StackLayout>
+                                            <Label Text="Verificación" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <Label x:Name="lblRFC" Text="RFC" FontSize="Medium" IsVisible="False"/>
+                                            <abstractions:EnhancedEntry x:Name="txtRFC" LeftIcon="id_card" Placeholder="RFC" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="little_home" Placeholder="Domicilio fiscal" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="credit_card" Placeholder="Cuenta bancaria" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="id" Placeholder="INE" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                    </StackLayout>
+                                </Frame>
+                            </ContentView>
+                            <ContentView Margin="0, 0, 0, 50">
+                                <Frame BackgroundColor="White" Margin="20"  CornerRadius="25" >
+                                    <StackLayout Orientation="Vertical" Margin="0,0,0,20">
+                                        <StackLayout>
+                                            <Label Text="Domicilio fiscal" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="boxes" Placeholder="C.P." FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="map_location" Placeholder="Calle" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="map_location" Placeholder="Colonia" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="hashtag" Placeholder="No. Exterior" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="hashtag" Placeholder="No. Interior" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="address" Placeholder="Estado" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="address" Placeholder="Municipio" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout Margin="0,20,0,0">
+                                            <Button Text="Agregar" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" 
+                                        WidthRequest="200" Command="{Binding CmdRegistrar}" BackgroundColor="{DynamicResource PrimaryBlue}" TextColor="White"/>
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                </Frame>
+                            </ContentView>
+
+                            <ContentView Margin="0, 0, 0, 50">
+                                <Frame BackgroundColor="White" Margin="20"  CornerRadius="25">
+                                    <StackLayout Orientation="Vertical" Margin="0,0,0,20">
+                                        <StackLayout>
+                                            <Label Text="Cuenta bancaria" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry  LeftIcon="card" Placeholder="Nombre de tarjetahabitante" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry  LeftIcon="password" Placeholder="Clabe" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="bank" Placeholder="Banco" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout Margin="0,20,0,0">
+                                            <Button Text="Agregar" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" 
+                                        WidthRequest="200" Command="{Binding CmdRegistrar}" BackgroundColor="{DynamicResource PrimaryBlue}" TextColor="White"/>
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                </Frame>
+                            </ContentView>
+                        </x:Array>
+                    </cards:CarouselView.ItemsSource>
+                    <controls:IndicatorsControl/>
+                </cards:CarouselView>
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
