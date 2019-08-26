@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:abstractions="clr-namespace:LeoJHarris.FormsPlugin.Abstractions;assembly=LeoJHarris.FormsPlugin.Abstractions"
              mc:Ignorable="d"
-             x:Class="LletraMovil.Views.Operators.VerificationMoralPage" NavigationPage.HasNavigationBar="False">
+             x:Class="LletraMovil.Views.Operators.Moral.VerificationPage"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <ScrollView>
             <Grid>
@@ -36,37 +37,37 @@
                             <StackLayout>
                                 <Label Text="Verificación" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
                             </StackLayout>
-                            
+
                             <StackLayout>
                                 <abstractions:EnhancedEntry LeftIcon="id_card" Placeholder="RFC" FontSize="Title"/>
                             </StackLayout>
 
                             <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
-                            
+
                             <StackLayout>
                                 <abstractions:EnhancedEntry LeftIcon="id" Placeholder="INE del Representante" FontSize="Title"/>
                             </StackLayout>
 
                             <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
-                            
+
                             <StackLayout>
                                 <abstractions:EnhancedEntry LeftIcon="passport" Placeholder="Pasaporte No." FontSize="Title"/>
                             </StackLayout>
 
                             <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
-                            
+
                             <StackLayout>
                                 <abstractions:EnhancedEntry LeftIcon="id_card" Placeholder="Cédula" FontSize="Title"/>
                             </StackLayout>
 
                             <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
-                            
+
                             <StackLayout>
                                 <abstractions:EnhancedEntry LeftIcon="little_home" Placeholder="Domicilio Fiscal" FontSize="Title"/>
                             </StackLayout>
 
                             <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
-                            
+
                             <StackLayout>
                                 <abstractions:EnhancedEntry LeftIcon="credit_card" Placeholder="Cuenta bancaria" FontSize="Title"/>
                             </StackLayout>
@@ -79,7 +80,7 @@
                             </StackLayout>
 
                         </StackLayout>
-                    </Frame>     
+                    </Frame>
                 </StackLayout>
 
             </Grid>
