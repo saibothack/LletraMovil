@@ -201,4 +201,22 @@
   <ItemGroup>
     <BundleResource Include="Resources\fondo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\caravan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\model.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\location.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\health_insurance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\painter_palette.png" />
+  </ItemGroup>
 </Project>

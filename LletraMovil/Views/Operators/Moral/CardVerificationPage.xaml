@@ -95,44 +95,71 @@
                                 <Frame BackgroundColor="White" Margin="20"  CornerRadius="25">
                                     <StackLayout Orientation="Vertical" Margin="0,0,0,20">
                                         <StackLayout>
-                                            <Label Text="Verificación" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
+                                            <Label Text="IFE del representante" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
                                         </StackLayout>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="id_card" Placeholder="RFC" FontSize="Title"/>
+                                            <abstractions:EnhancedEntry Placeholder="Ingresa  los 12 digitos" FontSize="Subtitle" HorizontalOptions="Center"/>
+                                        </StackLayout>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="id" Placeholder="INE del Representante" FontSize="Subtitle"/>
                                         </StackLayout>
 
                                         <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="id" Placeholder="INE del Representante" FontSize="Title"/>
+                                            <abstractions:EnhancedEntry LeftIcon="hashtag" Placeholder="Digitos" FontSize="Subtitle"/>
                                         </StackLayout>
 
                                         <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
+
+                                        <StackLayout Margin="0,20,0,0">
+                                            <Button Text="Agregar" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" 
+                                        WidthRequest="200" Command="{Binding CmdRegistrar}" BackgroundColor="{DynamicResource PrimaryBlue}" TextColor="White"/>
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                </Frame>
+                            </ContentView>
+                            <ContentView Margin="0, 0, 0, 50">
+                                <Frame BackgroundColor="White" Margin="20"  CornerRadius="25" >
+                                    <StackLayout Orientation="Vertical" Margin="0,0,0,20">
+                                        <StackLayout>
+                                            <Label Text="Tu cuenta" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="passport" Placeholder="Pasaporte No." FontSize="Title"/>
+                                            <abstractions:EnhancedEntry LeftIcon="user" Placeholder="Nombre" FontSize="Subtitle"/>
                                         </StackLayout>
 
-                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="id_card" Placeholder="Cédula" FontSize="Title"/>
+                                            <abstractions:EnhancedEntry LeftIcon="envelope" Placeholder="Correo electrónico" FontSize="Subtitle"/>
                                         </StackLayout>
 
-                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="little_home" Placeholder="Domicilio Fiscal" FontSize="Title"/>
+                                            <abstractions:EnhancedEntry LeftIcon="padlock" Placeholder="Contraseña" FontSize="Subtitle"/>
                                         </StackLayout>
 
-                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="credit_card" Placeholder="Cuenta bancaria" FontSize="Title"/>
+                                            <abstractions:EnhancedEntry LeftIcon="password" Placeholder="Confirmar" FontSize="Subtitle"/>
                                         </StackLayout>
 
-                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="Gray"/>
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="phone" Placeholder="Teléfono" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout Margin="0,20,0,0">
                                             <Button Text="Siguiente" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" 
@@ -146,58 +173,68 @@
                                 <Frame BackgroundColor="White" Margin="20"  CornerRadius="25" >
                                     <StackLayout Orientation="Vertical" Margin="0,0,0,20">
                                         <StackLayout>
-                                            <Label Text="Domicilio fiscal" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
+                                            <Label Text="Tu unidad" FontSize="Title" HorizontalOptions="Center" TextColor="{DynamicResource PrimaryBlue}"  />
+                                        </StackLayout>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="caravan" Placeholder="Tipo de caja" FontSize="Subtitle"/>
                                         </StackLayout>
 
                                         <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="id_card" Placeholder="C.P." FontSize="Subtitle"/>
+                                            <abstractions:EnhancedEntry LeftIcon="id_card" Placeholder="Tarjeta de circulación" FontSize="Subtitle"/>
                                         </StackLayout>
 
                                         <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="id" Placeholder="Calle" FontSize="Subtitle"/>
+                                            <abstractions:EnhancedEntry Placeholder="No. de serie" FontSize="Subtitle"/>
                                         </StackLayout>
 
                                         <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="passport" Placeholder="Colonia" FontSize="Subtitle"/>
+                                            <abstractions:EnhancedEntry LeftIcon="model" Placeholder="Modelo" FontSize="Subtitle"/>
                                         </StackLayout>
 
                                         <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="id_card" Placeholder="No. Exterior" FontSize="Subtitle"/>
+                                            <abstractions:EnhancedEntry LeftIcon="calendar" Placeholder="Año" FontSize="Subtitle"/>
                                         </StackLayout>
 
                                         <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <abstractions:EnhancedEntry LeftIcon="little_home" Placeholder="No. Interior" FontSize="Subtitle"/>
+                                            <abstractions:EnhancedEntry Placeholder="Marca" FontSize="Subtitle"/>
                                         </StackLayout>
 
                                         <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <Picker >
-
-                                            </Picker>
+                                            <abstractions:EnhancedEntry LeftIcon="location" Placeholder="Placas" FontSize="Subtitle"/>
                                         </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout>
-                                            <Picker >
-
-                                            </Picker>
+                                            <abstractions:EnhancedEntry LeftIcon="health_insurance" Placeholder="Seguro vigente" FontSize="Subtitle"/>
                                         </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
+
+                                        <StackLayout>
+                                            <abstractions:EnhancedEntry LeftIcon="painter_palette" Placeholder="Color" FontSize="Subtitle"/>
+                                        </StackLayout>
+
+                                        <BoxView HorizontalOptions="FillAndExpand" HeightRequest="1" Color="Gray"/>
 
                                         <StackLayout Margin="0,20,0,0">
-                                            <Button Text="Siguiente" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" 
-                                        WidthRequest="200" Command="{Binding CmdRegistrar}" BackgroundColor="{DynamicResource PrimaryBlue}" TextColor="White"/>
+                                            <Button Text="Registrar" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" CornerRadius="20" 
+                                        WidthRequest="200" Command="{Binding CmdRegistrar}" BackgroundColor="SkyBlue" TextColor="White"/>
                                         </StackLayout>
-
+                                        
                                     </StackLayout>
                                 </Frame>
                             </ContentView>
