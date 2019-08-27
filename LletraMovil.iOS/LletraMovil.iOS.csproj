@@ -142,9 +142,6 @@
     <BundleResource Include="Resources\icon_cliente.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\background.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\left_arrow.png" />
   </ItemGroup>
   <ItemGroup>
@@ -197,5 +194,11 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fondo.png" />
   </ItemGroup>
 </Project>

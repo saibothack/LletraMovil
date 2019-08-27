@@ -10,6 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\background.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\background.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CardsView" Version="2.2.0" />
     <PackageReference Include="LeoJHarris.XForms.Plugin.EnhancedEntry" Version="1.0.6" />
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />

@@ -12,9 +12,9 @@
 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>   
+                </Grid.ColumnDefinitions>
 
-                <Image Source="background.png" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
+                <Image Source="{Binding imgBackground}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
 
                 <StackLayout Grid.Row="0" Grid.Column="0">
                     <Label Text="Elige tu tipo de usuario" FontSize="Title" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" 

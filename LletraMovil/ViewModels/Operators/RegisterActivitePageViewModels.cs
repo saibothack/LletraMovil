@@ -9,10 +9,12 @@ namespace LletraMovil.ViewModels.Operators
     public class RegisterActivitePageViewModels : ViewModelBase
     {
         public INavigation Navigation { get; internal set; }
+        public ImageSource imgBackground { get; internal set; }
         public Command CmdRegresar { get; internal set; }
 
         public RegisterActivitePageViewModels()
         {
+            imgBackground = ImageSource.FromResource("LletraMovil.Images.background.png");
             CmdRegresar = new Command(Regresar);
         }
 

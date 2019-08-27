@@ -18,7 +18,7 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <Image Source="background.png" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
+                <Image Source="{Binding imgBackground}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
 
                 <StackLayout Grid.Row="0" Grid.Column="0" Margin="20,0,0,0">
                     <StackLayout WidthRequest="50" HorizontalOptions="Start">

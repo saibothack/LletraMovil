@@ -7,9 +7,11 @@ namespace LletraMovil.ViewModels
     public class IntroPageViewModels : ViewModelBase
     {
         public INavigation Navigation { get; internal set; }
+        public ImageSource imgBackground { get; internal set; }
 
         public IntroPageViewModels()
         {
+            imgBackground = ImageSource.FromResource("LletraMovil.Images.background.png");
             goToTutorial();
         }
 

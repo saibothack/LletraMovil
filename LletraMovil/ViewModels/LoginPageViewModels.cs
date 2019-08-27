@@ -12,13 +12,16 @@ namespace LletraMovil.ViewModels
     public class LoginPageViewModels : ViewModelBase
     {
         public INavigation Navigation { get; internal set; }
+        public ImageSource imgBackground { get; internal set; }
         public Command CmdRegresar { get; internal set; }
         public Command CmdRegistrar { get; internal set; }
         public Command CmdRecuperar { get; internal set; }
+        
 
 
         public LoginPageViewModels()
         {
+            imgBackground = ImageSource.FromResource("LletraMovil.Images.background.png");
             CmdRegresar = new Command(Regresar);
             CmdRegistrar = new Command(Registrar);
             CmdRecuperar = new Command(Recuperar);
